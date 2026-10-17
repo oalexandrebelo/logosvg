@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>AB — Kit de interface</title>
+  <meta name="description" content="Mostruário local de componentes e aplicações da identidade AB: temas, estados, acessibilidade e logo responsiva.">
+  <link rel="stylesheet" href="../tokens/brand.css">
+  <link rel="stylesheet" href="ui-kit.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <header class="site-header">
+    <a class="site-brand" href="../brandbook/index.html" aria-label="AB — abrir o brandbook">
+      <img class="logo--light" src="../assets/logo/ab-primary.svg" width="100" height="60" alt="AB — Alexandre Belo">
+      <img class="logo--dark" src="../assets/logo/ab-reverse.svg" width="100" height="60" alt="AB — Alexandre Belo">
+      <span class="brand-context">Sistema de marca<span>Kit de interface</span></span>
+    </a>
+    <nav class="section-nav" aria-label="Seções do mostruário">
+      <a href="#botoes">Botões</a>
+      <a href="#campos">Campos</a>
+      <a href="#marca">Marca</a>
+    </nav>
+    <button class="theme-switch" id="theme-switch" type="button" aria-pressed="false">
+      <span class="theme-switch-icon" aria-hidden="true"></span>
+      <span>Tema escuro</span>
+    </button>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero layout-width" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>AB / Interface</p>
+        <h1 id="page-title">Inteligência<br>em trajetória.</h1>
+        <p class="hero-description">Uma identidade que organiza a atenção. Controles claros, estados legíveis e uma assinatura que acompanha cada escala.</p>
+        <div class="hero-actions">
+          <a class="button button--primary" href="../brandbook/index.html">Explorar o brandbook <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="../assets/logo/ab-primary.svg" download="AB-Primary.svg">Baixar a logo em SVG <span aria-hidden="true">↓</span></a>
+        </div>
+        <p class="specimen-note">Mostruário de referência. As interações desta página funcionam localmente.</p>
+      </div>
+      <div class="hero-art" data-theme="dark">
+        <div class="art-header"><span>AB / Design, dados e IA</span><span aria-hidden="true">↗</span></div>
+        <img src="../assets/logo/ab-reverse.svg" width="1000" height="600" alt="Monograma AB, com órbita azul e ponto de foco">
+        <div class="art-footer"><span class="art-rule" aria-hidden="true"></span><p>A forma orienta.<br>A interface responde.</p><span class="art-index" aria-hidden="true">01</span></div>
+      </div>
+    </section>
+
+    <div class="system-strip" aria-label="Princípios da interface">
+      <div class="layout-width strip-inner"><span>Estrutura</span><span>Direção</span><span>Foco</span><span id="motion-status">Movimento essencial</span></div>
+    </div>
+
+    <section class="specimen-section layout-width" id="botoes" aria-labelledby="buttons-title">
+      <div class="section-heading"><p class="section-index">01 / Ação</p><div><h2 id="buttons-title">Cada ação tem seu peso.</h2><p>Três hierarquias, quatro estados. Use Tab para conferir o foco real de cada controle.</p></div></div>
+      <div class="button-matrix" role="group" aria-label="Variantes e estados dos botões">
+        <div class="matrix-row matrix-head" aria-hidden="true"><span>Hierarquia</span><span>Base</span><span>Hover · referência</span><span>Foco · referência</span><span>Desabilitado</span></div>
+        <div class="matrix-row"><div class="row-label">Principal<span>Uma decisão central</span></div>
+          <div class="state-cell"><span class="mobile-state">Base</span><button class="button button--primary" type="button" data-demo-action="Principal, estado base">Continuar <span aria-hidden="true">→</span></button></div>
+          <div class="state-cell"><span class="mobile-state">Hover · referência</span><button class="button button--primary is-hover" type="button" data-demo-action="Principal, referência de hover" aria-label="Continuar — referência visual de hover">Continuar <span aria-hidden="true">→</span></button></div>
+          <div class="state-cell"><span class="mobile-state">Foco · referência</span><button class="button button--primary is-focus-reference" type="button" data-demo-action="Principal, referência de foco" aria-label="Continuar — referência visual de foco">Continuar <span aria-hidden="true">→</span></button></div>
+          <div class="state-cell"><span class="mobile-state">Desabilitado</span><button class="button button--primary" type="button" disabled>Continuar <span aria-hidden="true">→</span></button></div>
+        </div>
+        <div class="matrix-row"><div class="row-label">Secundário<span>Uma alternativa visível</span></div>
+          <div class="state-cell"><span class="mobile-state">Base</span><button class="button button--secondary" type="button" data-demo-action="Secundário, estado base">Ver detalhes</button></div>
+          <div class="state-cell"><span class="mobile-state">Hover · referência</span><button class="button button--secondary is-hover" type="button" data-demo-action="Secundário, referência de hover" aria-label="Ver detalhes — referência visual de hover">Ver detalhes</button></div>
+          <div class="state-cell"><span class="mobile-state">Foco · referência</span><button class="button button--secondary is-focus-reference" type="button" data-demo-action="Secundário, referência de foco" aria-label="Ver detalhes — referência visual de foco">Ver detalhes</button></div>
+          <div class="state-cell"><span class="mobile-state">Desabilitado</span><button class="button button--secondary" type="button" disabled>Ver detalhes</button></div>
+        </div>
+        <div class="matrix-row"><div class="row-label">Ghost<span>Apoio, sem competir</span></div>
+          <div class="state-cell"><span class="mobile-state">Base</span><button class="button button--ghost" type="button" data-demo-action="Ghost, estado base">Voltar</button></div>
+          <div class="state-cell"><span class="mobile-state">Hover · referência</span><button class="button button--ghost is-hover" type="button" data-demo-action="Ghost, referência de hover" aria-label="Voltar — referência visual de hover">Voltar</button></div>
+          <div class="state-cell"><span class="mobile-state">Foco · referência</span><button class="button button--ghost is-focus-reference" type="button" data-demo-action="Ghost, referência de foco" aria-label="Voltar — referência visual de foco">Voltar</button></div>
+          <div class="state-cell"><span class="mobile-state">Desabilitado</span><button class="button button--ghost" type="button" disabled>Voltar</button></div>
+        </div>
+      </div>
+      <div class="interaction-status" role="status" aria-live="polite" aria-atomic="true" id="button-status">Ative um botão para conferir a resposta local. Os controles desabilitados não respondem.</div>
+      <p class="section-footnote">As colunas de hover e foco fixam a aparência para comparação; o foco do teclado continua visível em todos os controles habilitados.</p>
+    </section>
+
+    <section class="specimen-section layout-width" id="campos" aria-labelledby="inputs-title">
+      <div class="section-heading"><p class="section-index">02 / Entrada</p><div><h2 id="inputs-title">Clareza antes da confirmação.</h2><p>O rótulo identifica. A ajuda orienta. O erro explica como continuar.</p></div></div>
+      <div class="input-grid">
+        <div class="specimen-card validation-card" role="group" aria-labelledby="local-validation-title">
+          <div class="card-heading"><span class="badge badge--accent">Interação local</span><h3 id="local-validation-title">Dê nome à próxima ideia.</h3></div>
+          <div class="field"><label for="project-name">Nome do projeto <span class="label-optional">(obrigatório)</span></label><input id="project-name" name="project-name" type="text" placeholder="Ex.: Horizonte" minlength="3" maxlength="80" required autocomplete="off" aria-describedby="project-help project-error" aria-invalid="false"><p class="field-help" id="project-help">Use entre 3 e 80 caracteres. O texto permanece neste navegador.</p><p class="field-error" id="project-error" hidden></p></div>
+          <button class="button button--primary" type="button" id="validate-button">Validar localmente <span aria-hidden="true">→</span></button>
+          <p class="validation-result" id="validation-result" role="status" aria-live="polite" aria-atomic="true">Digite um nome e valide para explorar os estados.</p>
+        </div>
+        <div class="field-specimens">
+          <div class="field"><label for="error-example">Nome do projeto <span class="label-optional">· referência de erro</span></label><input id="error-example" type="text" value="AB" readonly aria-invalid="true" aria-describedby="error-example-help"><p class="field-error" id="error-example-help"><span aria-hidden="true">!</span> Use pelo menos 3 caracteres. Esta amostra exibe o estado de erro.</p></div>
+          <div class="field"><label for="disabled-example">Área de atuação <span class="label-optional">· desabilitado</span></label><input id="disabled-example" type="text" value="Design, dados e IA" disabled aria-describedby="disabled-example-help"><p class="field-help" id="disabled-example-help">O controle indisponível mantém seu rótulo e sua informação de contexto.</p></div>
+          <div class="accessibility-note"><span class="note-marker" aria-hidden="true">↗</span><p><strong>Estado visível, mensagem explícita.</strong> O erro é comunicado por texto e por <code>aria-invalid</code>, além da cor.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="specimen-section layout-width" id="componentes" aria-labelledby="cards-title">
+      <div class="section-heading"><p class="section-index">03 / Contexto</p><div><h2 id="cards-title">Informação com direção.</h2><p>Badges descrevem o estado. Cards agrupam uma ideia e seu próximo passo.</p></div></div>
+      <div class="badge-specimen" aria-label="Exemplos de badges"><span class="badge badge--accent"><span class="badge-dot" aria-hidden="true"></span>Em exploração</span><span class="badge badge--neutral">Em revisão</span><span class="badge badge--success"><span aria-hidden="true">✓</span>Pronto para entrega</span><span class="badge badge--outline">Sistema AB</span></div>
+      <div class="cards-grid">
+        <article class="specimen-card brand-card"><div class="card-top"><span class="eyebrow small">Arquivo canônico</span><span class="badge badge--outline">SVG</span></div><div class="brand-card-logo"><img class="logo--light" src="../assets/logo/ab-primary.svg" width="1000" height="600" alt="Logo principal AB"><img class="logo--dark" src="../assets/logo/ab-reverse.svg" width="1000" height="600" alt="Logo reversa AB"></div><h3>Uma assinatura, várias escalas.</h3><p>O monograma, a órbita e o ponto de foco formam uma composição única. As versões reduzidas preservam sua leitura.</p><a class="button button--secondary" href="../assets/logo/ab-primary.svg" download="AB-Primary.svg">Baixar a principal <span aria-hidden="true">↓</span></a></article>
+        <article class="specimen-card direction-card"><div class="card-top"><span class="eyebrow small">Princípio de interface</span><span class="direction-arrow" aria-hidden="true">↗</span></div><h3>Menos disputa.<br>Mais direção.</h3><p>Reserve a ação principal para o próximo passo relevante. Mantenha contexto e alternativas próximos da decisão.</p><div class="card-divider"></div><p class="card-principle">Foco é uma escolha de hierarquia.</p><a class="text-link" href="../brandbook/index.html">Ler as diretrizes <span aria-hidden="true">→</span></a></article>
+      </div>
+    </section>
+
+    <section class="specimen-section layout-width" id="temas" aria-labelledby="themes-title">
+      <div class="section-heading"><p class="section-index">04 / Superfícies</p><div><h2 id="themes-title">A mesma voz, em dois temas.</h2><p>As cores semânticas mantêm as relações entre fundo, conteúdo, ação e foco.</p></div></div>
+      <div class="theme-grid">
+        <article class="theme-preview" data-theme="light"><div class="theme-preview-header"><img src="../assets/logo/ab-primary.svg" width="1000" height="600" alt="AB sobre fundo claro"><span>Claro</span></div><span class="badge badge--accent">Foco na próxima ação</span><h3>Uma ideia bem orientada.</h3><p>Estrutura, espaço e contraste organizam a leitura.</p><button class="button button--primary" type="button" data-demo-action="Ação no painel claro">Explorar <span aria-hidden="true">→</span></button></article>
+        <article class="theme-preview" data-theme="dark"><div class="theme-preview-header"><img src="../assets/logo/ab-reverse.svg" width="1000" height="600" alt="AB sobre fundo escuro"><span>Escuro</span></div><span class="badge badge--outline">Foco na próxima ação</span><h3>Uma ideia bem orientada.</h3><p>Estrutura, espaço e contraste organizam a leitura.</p><button class="button button--primary" type="button" data-demo-action="Ação no painel escuro">Explorar <span aria-hidden="true">→</span></button></article>
+      </div>
+    </section>
+
+    <section class="specimen-section layout-width" id="marca" aria-labelledby="responsive-title">
+      <div class="section-heading"><p class="section-index">05 / Escala</p><div><h2 id="responsive-title">Uma marca que sabe reduzir.</h2><p>Ajuste a largura para observar a troca entre principal, compacta e símbolo micro.</p></div></div>
+      <div class="responsive-grid">
+        <div class="logo-stage"><div class="stage-cross stage-cross--one" aria-hidden="true"></div><div class="stage-cross stage-cross--two" aria-hidden="true"></div><img id="responsive-logo" src="../assets/logo/ab-primary.svg" width="1000" height="600" style="width:160px" alt="AB — versão principal"><span class="stage-caption" id="stage-caption">Principal · 160 px</span></div>
+        <div class="scale-controls"><label class="scale-label" for="logo-size">Largura de aplicação <output id="logo-size-output" for="logo-size">160 px</output></label><input id="logo-size" type="range" min="16" max="240" value="160" step="1" aria-describedby="scale-help" aria-valuetext="160 pixels, versão principal"><p class="field-help" id="scale-help">A troca considera a largura CSS do arquivo e as faixas definidas nos tokens da marca.</p><dl class="scale-legend"><div><dt>Principal</dt><dd>A partir de 96 px</dd></div><div><dt>Compacta</dt><dd>64–95 px</dd></div><div><dt>Micro</dt><dd>16–63 px</dd></div></dl><a class="button button--secondary" id="variant-download" href="../assets/logo/ab-primary.svg" download="ab-primary.svg">Baixar variante em uso <span aria-hidden="true">↓</span></a><p class="section-footnote">A troca de tema também seleciona a versão correta para o fundo.</p></div>
+      </div>
+    </section>
+
+    <footer class="site-footer layout-width"><div><strong>AB — Alexandre Belo</strong><p>Design, dados e inteligência artificial.</p></div><div><a href="https://alexandrebelo.com.br" rel="noopener noreferrer">alexandrebelo.com.br <span aria-hidden="true">↗</span></a><a href="email-signature.html">Assinatura de e-mail <span aria-hidden="true">→</span></a></div></footer>
+  </main>
+  <noscript><p class="noscript-note">O mostruário continua disponível. Para alternar o tema, validar o campo e ajustar a escala, habilite JavaScript neste arquivo.</p></noscript>
+  <script>
+    (() => {
+      'use strict';
+      const html = document.documentElement;
+      const themeButton = document.getElementById('theme-switch');
+      const logoSize = document.getElementById('logo-size');
+      const logoImage = document.getElementById('responsive-logo');
+      const logoOutput = document.getElementById('logo-size-output');
+      const logoCaption = document.getElementById('stage-caption');
+      const variantDownload = document.getElementById('variant-download');
+      const buttonStatus = document.getElementById('button-status');
+      const motionStatus = document.getElementById('motion-status');
+      const colorPreference = window.matchMedia('(prefers-color-scheme: dark)');
+      const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
+      let chosenTheme = null;
+      try { const stored = localStorage.getItem('ab-ui-kit-theme'); if (stored === 'light' || stored === 'dark') chosenTheme = stored; } catch (_) { /* Theme still works when local storage is unavailable. */ }
+
+      function updateLogo() {
+        const width = Number(logoSize.value);
+        const dark = html.dataset.theme === 'dark';
+        let source, name, dimensions;
+        if (width < 64) {
+          source = dark ? '../assets/icons/ab-micro-reverse.svg' : '../assets/icons/ab-micro-transparent.svg';
+          name = 'Micro'; dimensions = [64, 64];
+        } else if (width < 96) {
+          source = dark ? '../assets/logo/ab-compact-reverse.svg' : '../assets/logo/ab-compact.svg';
+          name = 'Compacta'; dimensions = [1000, 600];
+        } else {
+          source = dark ? '../assets/logo/ab-reverse.svg' : '../assets/logo/ab-primary.svg';
+          name = 'Principal'; dimensions = [1000, 600];
+        }
+        if (logoImage.getAttribute('src') !== source) logoImage.src = source;
+        logoImage.width = dimensions[0]; logoImage.height = dimensions[1];
+        logoImage.style.width = width + 'px';
+        logoImage.alt = 'AB — versão ' + name.toLowerCase() + (dark ? ' para fundo escuro' : ' para fundo claro');
+        logoOutput.textContent = width + ' px';
+        logoCaption.textContent = name + ' · ' + width + ' px';
+        logoSize.setAttribute('aria-valuetext', width + ' pixels, versão ' + name.toLowerCase());
+        variantDownload.href = source;
+        variantDownload.download = source.split('/').pop();
+      }
+
+      function applyTheme(theme) {
+        html.dataset.theme = theme;
+        const dark = theme === 'dark';
+        themeButton.setAttribute('aria-pressed', String(dark));
+        updateLogo();
+      }
+      themeButton.addEventListener('click', () => {
+        chosenTheme = html.dataset.theme === 'dark' ? 'light' : 'dark';
+        applyTheme(chosenTheme);
+        try { localStorage.setItem('ab-ui-kit-theme', chosenTheme); } catch (_) { /* No storage is required for the control itself. */ }
+      });
+      colorPreference.addEventListener('change', event => { if (!chosenTheme) applyTheme(event.matches ? 'dark' : 'light'); });
+      logoSize.addEventListener('input', updateLogo);
+      applyTheme(chosenTheme || (colorPreference.matches ? 'dark' : 'light'));
+      const updateMotionStatus = () => { motionStatus.textContent = motionPreference.matches ? 'Movimento reduzido' : 'Movimento essencial'; };
+      motionPreference.addEventListener('change', updateMotionStatus);
+      updateMotionStatus();
+
+      document.querySelectorAll('[data-demo-action]').forEach(button => {
+        button.addEventListener('click', () => { buttonStatus.textContent = button.dataset.demoAction + ': ação ativada neste mostruário. Nenhuma informação foi enviada.'; });
+      });
+
+      const input = document.getElementById('project-name');
+      const error = document.getElementById('project-error');
+      const result = document.getElementById('validation-result');
+      let hasValidated = false;
+      function validateLocal(shouldFocus) {
+        hasValidated = true;
+        const length = Array.from(input.value.trim().normalize('NFC')).length;
+        const valid = length >= 3 && length <= 80;
+        input.setAttribute('aria-invalid', String(!valid));
+        error.hidden = valid;
+        error.textContent = valid ? '' : (length === 0 ? 'Informe o nome do projeto.' : 'Use entre 3 e 80 caracteres para nomear o projeto.');
+        result.textContent = valid ? 'Nome válido para esta demonstração. O texto permanece somente nesta página.' : 'Validação local: revise o campo indicado.';
+        result.dataset.state = valid ? 'success' : 'error';
+        if (!valid && shouldFocus) input.focus();
+      }
+      document.getElementById('validate-button').addEventListener('click', () => validateLocal(true));
+      input.addEventListener('keydown', event => { if (event.key === 'Enter') { event.preventDefault(); validateLocal(true); } });
+      input.addEventListener('input', () => { if (hasValidated) validateLocal(false); });
+    })();
+  </script>
+</body>
+</html>

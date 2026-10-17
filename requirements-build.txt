@@ -1,0 +1,12 @@
+# Dependências de produção observadas no ambiente desta edição.
+# Python observado: 3.12.14. Os builders pedem Python 3.11+.
+# O validador scripts/validate.py usa apenas a biblioteca padrão.
+# Inkscape 1.2.2 é o executável observado para build_assets.py --png;
+# instale-o separadamente no sistema e disponibilize-o no PATH.
+
+Pillow==12.3.0
+fonttools==4.61.1
+reportlab==4.4.9
+
+# Dependência obrigatória declarada pelo ReportLab, também fixada à versão observada.
+charset-normalizer==3.5.2

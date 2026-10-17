@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="ab-micro-mono-title ab-micro-mono-desc">
+  <title id="ab-micro-mono-title">AB — A e foco, versão monocromática</title>
+  <desc id="ab-micro-mono-desc">Assinatura reduzida AB: A e ponto de foco em uma cor #070808, com fundo transparente. Uso mínimo de 16 por 16 pixels.</desc>
+  <g id="ab-micro-mono-author-mark">
+    <path id="ab-micro-mono-letter-a" fill="#070808" fill-rule="evenodd" d="M20 11H34V14C31.8 14.5 32.1 16.4 33.4 19.6L43.7 45.8C44.9 48.8 46.6 49.7 50 50V53H32V50C35.8 49.6 36.4 48 35 44.4L33.6 40.5H21.4L19.8 44.8C18.5 48.4 19.6 49.9 23 50V53H8V50C11.2 49.6 13.2 47.9 14.8 43.8L24.3 19.2L20 11ZM27.4 25L23.4 36H31.6L27.4 25Z"/>
+    <circle id="ab-micro-mono-focus-dot" cx="51" cy="17" r="4.5" fill="#070808"/>
+  </g>
+</svg>

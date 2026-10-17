@@ -1,0 +1,69 @@
+{
+  "formula": "WCAG relative luminance in sRGB; no rounded threshold comparison",
+  "source": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+  "pairs": [
+    {
+      "foreground": "#FFFFFF",
+      "background": "#070808",
+      "ratio": 20.052064313512723,
+      "text_AA_4_5": true,
+      "large_text_AA_3": true
+    },
+    {
+      "foreground": "#FFFFFF",
+      "background": "#065CFB",
+      "ratio": 5.341324650413456,
+      "text_AA_4_5": true,
+      "large_text_AA_3": true
+    },
+    {
+      "foreground": "#065CFB",
+      "background": "#FFFFFF",
+      "ratio": 5.341324650413456,
+      "text_AA_4_5": true,
+      "large_text_AA_3": true
+    },
+    {
+      "foreground": "#065CFB",
+      "background": "#070808",
+      "ratio": 3.7541369652489767,
+      "text_AA_4_5": false,
+      "large_text_AA_3": true
+    },
+    {
+      "foreground": "#72A4FF",
+      "background": "#070808",
+      "ratio": 8.087346320485652,
+      "text_AA_4_5": true,
+      "large_text_AA_3": true
+    },
+    {
+      "foreground": "#566176",
+      "background": "#FFFFFF",
+      "ratio": 6.236699583532997,
+      "text_AA_4_5": true,
+      "large_text_AA_3": true
+    },
+    {
+      "foreground": "#C6CDD9",
+      "background": "#070808",
+      "ratio": 12.542693024369576,
+      "text_AA_4_5": true,
+      "large_text_AA_3": true
+    },
+    {
+      "foreground": "#B42318",
+      "background": "#FFFFFF",
+      "ratio": 6.57428861557707,
+      "text_AA_4_5": true,
+      "large_text_AA_3": true
+    },
+    {
+      "foreground": "#176B47",
+      "background": "#FFFFFF",
+      "ratio": 6.50054944767283,
+      "text_AA_4_5": true,
+      "large_text_AA_3": true
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "repository": "oalexandrebelo/logosvg",
+  "url": "https://github.com/oalexandrebelo/logosvg",
+  "branch": "main",
+  "head_sha": "a162752f7c5a8237352b3eac228d52e50484eddf",
+  "tree_sha": "66146b1560a25a766c4e4703d76c383031bc81ad",
+  "visibility": "public",
+  "files": [
+    {
+      "path": "apple-touch-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4fc34d39bf8de884762da16fc9985663c6b1f44",
+      "size": 2068,
+      "url": "https://api.github.com/repos/oalexandrebelo/logosvg/git/blobs/d4fc34d39bf8de884762da16fc9985663c6b1f44"
+    },
+    {
+      "path": "faviconw.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c99d73e1a3e013035b83a23065bc867a067f846",
+      "size": 2048,
+      "url": "https://api.github.com/repos/oalexandrebelo/logosvg/git/blobs/5c99d73e1a3e013035b83a23065bc867a067f846"
+    },
+    {
+      "path": "favivonb.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70061d942d685e96ee334651e843ec38718ba513",
+      "size": 2048,
+      "url": "https://api.github.com/repos/oalexandrebelo/logosvg/git/blobs/70061d942d685e96ee334651e843ec38718ba513"
+    },
+    {
+      "path": "logo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc27d6df30923f253c052c3fbabbd71e8ac3b3d9",
+      "size": 17700,
+      "url": "https://api.github.com/repos/oalexandrebelo/logosvg/git/blobs/cc27d6df30923f253c052c3fbabbd71e8ac3b3d9"
+    },
+    {
+      "path": "logo_dark.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7919984c512bcfc7b438dfb73e44fb62e9eea6ab",
+      "size": 17698,
+      "url": "https://api.github.com/repos/oalexandrebelo/logosvg/git/blobs/7919984c512bcfc7b438dfb73e44fb62e9eea6ab"
+    },
+    {
+      "path": "logoazul.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e536e3e9e5e2bf4e6005ce5624298292f8172d8a",
+      "size": 1918,
+      "url": "https://api.github.com/repos/oalexandrebelo/logosvg/git/blobs/e536e3e9e5e2bf4e6005ce5624298292f8172d8a"
+    },
+    {
+      "path": "logob.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ca834d8bb82eddc66d944eaed02cbba3b487a58",
+      "size": 1918,
+      "url": "https://api.github.com/repos/oalexandrebelo/logosvg/git/blobs/5ca834d8bb82eddc66d944eaed02cbba3b487a58"
+    },
+    {
+      "path": "logoblack.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e769f3db159f3619711b4b6b5e3a7047f4191359",
+      "size": 1919,
+      "url": "https://api.github.com/repos/oalexandrebelo/logosvg/git/blobs/e769f3db159f3619711b4b6b5e3a7047f4191359"
+    }
+  ]
+}
