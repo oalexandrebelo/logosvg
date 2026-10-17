@@ -1,0 +1,888 @@
+{
+  "schema": "ab-brandbook-scene/1",
+  "pages": [
+    {
+      "number": 1,
+      "name": "01 — Digital / Desktop",
+      "title": "01 — Digital / Desktop",
+      "slug": "digital-desktop",
+      "w": 1440,
+      "h": 960,
+      "fill": "#FFFFFF",
+      "nodes": [
+        {
+          "type": "svg",
+          "name": "ab-primary",
+          "asset": "assets/logo/ab-primary.svg",
+          "x": 80,
+          "y": 38,
+          "w": 144,
+          "h": 86.4,
+          "viewBox": null,
+          "color": null,
+          "opacity": 1
+        },
+        {
+          "type": "group",
+          "name": "Navegação",
+          "x": 1092,
+          "y": 64,
+          "w": 268,
+          "h": 24,
+          "layout": "HORIZONTAL",
+          "gap": 32,
+          "children": [
+            {
+              "type": "text",
+              "name": "Projetos",
+              "x": 0,
+              "y": 0,
+              "w": 80,
+              "h": 24,
+              "text": "Projetos",
+              "size": 16,
+              "line": 24,
+              "fill": "#070808",
+              "style": "Regular",
+              "tracking": 0
+            },
+            {
+              "type": "text",
+              "name": "Método",
+              "x": 112,
+              "y": 0,
+              "w": 68,
+              "h": 24,
+              "text": "Método",
+              "size": 16,
+              "line": 24,
+              "fill": "#070808",
+              "style": "Regular",
+              "tracking": 0
+            },
+            {
+              "type": "text",
+              "name": "Sobre",
+              "x": 212,
+              "y": 0,
+              "w": 56,
+              "h": 24,
+              "text": "Sobre",
+              "size": 16,
+              "line": 24,
+              "fill": "#070808",
+              "style": "Regular",
+              "tracking": 0
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "name": "Eixo / separador",
+          "x": 80,
+          "y": 154,
+          "w": 1280,
+          "h": 0,
+          "fill": "#C6CDD9",
+          "sw": 1,
+          "dash": null
+        },
+        {
+          "type": "group",
+          "name": "Mensagem principal",
+          "x": 80,
+          "y": 230,
+          "w": 848,
+          "h": 328,
+          "layout": "VERTICAL",
+          "gap": 28,
+          "children": [
+            {
+              "type": "text",
+              "name": "ESTRATÉGIA / DESIGN / IA",
+              "x": 0,
+              "y": 0,
+              "w": 820,
+              "h": 24,
+              "text": "ESTRATÉGIA / DESIGN / IA",
+              "size": 16,
+              "line": 24,
+              "fill": "#065CFB",
+              "style": "SemiBold",
+              "tracking": 1
+            },
+            {
+              "type": "text",
+              "name": "Clareza para decidir. Precisão para construir.",
+              "x": 0,
+              "y": 52,
+              "w": 848,
+              "h": 172,
+              "text": "Clareza para decidir.\nPrecisão para construir.",
+              "size": 72,
+              "line": 86,
+              "fill": "#070808",
+              "style": "SemiBold",
+              "tracking": -1.5
+            },
+            {
+              "type": "text",
+              "name": "Investigar, dar direção e transformar entendimento em experiênci",
+              "x": 0,
+              "y": 252,
+              "w": 810,
+              "h": 76,
+              "text": "Investigar, dar direção e transformar entendimento\nem experiências que possam evoluir.",
+              "size": 24,
+              "line": 38,
+              "fill": "#566176",
+              "style": "Regular",
+              "tracking": 0
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "name": "Painel demonstrativo",
+          "x": 984,
+          "y": 240,
+          "w": 376,
+          "h": 410,
+          "fill": "#F4F6FA",
+          "radius": 24,
+          "clip": true,
+          "children": [
+            {
+              "type": "svg",
+              "name": "trajectory",
+              "asset": "assets/graphics/trajectory.svg",
+              "x": -86,
+              "y": 82,
+              "w": 520,
+              "h": 312,
+              "viewBox": null,
+              "color": "#065CFB",
+              "opacity": 1
+            },
+            {
+              "type": "circle",
+              "name": "Ponto de foco",
+              "x": 184,
+              "y": 340,
+              "w": 56,
+              "h": 56,
+              "fill": "#070808"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "name": "Botão / Default",
+          "x": 80,
+          "y": 652,
+          "w": 200,
+          "h": 48,
+          "children": [
+            {
+              "type": "rect",
+              "name": "Superfície",
+              "x": 0,
+              "y": 0,
+              "w": 200,
+              "h": 48,
+              "fill": "#065CFB",
+              "radius": 8,
+              "stroke": null,
+              "sw": 1
+            },
+            {
+              "type": "text",
+              "name": "Conhecer o trabalho",
+              "x": 26.47265625,
+              "y": 14,
+              "w": 149.0546875,
+              "h": 40,
+              "text": "Conhecer o\ntrabalho",
+              "size": 14,
+              "line": 20,
+              "fill": "#FFFFFF",
+              "style": "SemiBold",
+              "tracking": 0
+            }
+          ],
+          "component": {
+            "family": "Button",
+            "Style": "Primary",
+            "State": "Default",
+            "Label": "Conhecer o trabalho"
+          }
+        },
+        {
+          "type": "line",
+          "name": "Eixo / separador",
+          "x": 80,
+          "y": 772,
+          "w": 1280,
+          "h": 0,
+          "fill": "#C6CDD9",
+          "sw": 1,
+          "dash": null
+        },
+        {
+          "type": "group",
+          "name": "Área / Estratégia",
+          "x": 80,
+          "y": 822,
+          "w": 400,
+          "h": 70,
+          "layout": "VERTICAL",
+          "gap": 12,
+          "children": [
+            {
+              "type": "text",
+              "name": "Estratégia",
+              "x": 0,
+              "y": 0,
+              "w": 400,
+              "h": 32,
+              "text": "Estratégia",
+              "size": 24,
+              "line": 32,
+              "fill": "#070808",
+              "style": "SemiBold",
+              "tracking": 0
+            },
+            {
+              "type": "text",
+              "name": "Perguntas, evidências e critérios.",
+              "x": 0,
+              "y": 44,
+              "w": 400,
+              "h": 26,
+              "text": "Perguntas, evidências e critérios.",
+              "size": 17,
+              "line": 26,
+              "fill": "#566176",
+              "style": "Regular",
+              "tracking": 0
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "name": "Área / Design",
+          "x": 516,
+          "y": 822,
+          "w": 400,
+          "h": 70,
+          "layout": "VERTICAL",
+          "gap": 12,
+          "children": [
+            {
+              "type": "text",
+              "name": "Design",
+              "x": 0,
+              "y": 0,
+              "w": 400,
+              "h": 32,
+              "text": "Design",
+              "size": 24,
+              "line": 32,
+              "fill": "#070808",
+              "style": "SemiBold",
+              "tracking": 0
+            },
+            {
+              "type": "text",
+              "name": "Decisões em forma utilizável.",
+              "x": 0,
+              "y": 44,
+              "w": 400,
+              "h": 26,
+              "text": "Decisões em forma utilizável.",
+              "size": 17,
+              "line": 26,
+              "fill": "#566176",
+              "style": "Regular",
+              "tracking": 0
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "name": "Área / Inteligência artificial",
+          "x": 952,
+          "y": 822,
+          "w": 400,
+          "h": 70,
+          "layout": "VERTICAL",
+          "gap": 12,
+          "children": [
+            {
+              "type": "text",
+              "name": "Inteligência artificial",
+              "x": 0,
+              "y": 0,
+              "w": 400,
+              "h": 32,
+              "text": "Inteligência artificial",
+              "size": 24,
+              "line": 32,
+              "fill": "#070808",
+              "style": "SemiBold",
+              "tracking": 0
+            },
+            {
+              "type": "text",
+              "name": "Exploração com revisão explícita.",
+              "x": 0,
+              "y": 44,
+              "w": 400,
+              "h": 26,
+              "text": "Exploração com revisão explícita.",
+              "size": 17,
+              "line": 26,
+              "fill": "#566176",
+              "style": "Regular",
+              "tracking": 0
+            }
+          ]
+        }
+      ],
+      "physical": null
+    },
+    {
+      "number": 2,
+      "name": "02 — Digital / Mobile",
+      "title": "02 — Digital / Mobile",
+      "slug": "digital-mobile",
+      "w": 390,
+      "h": 844,
+      "fill": "#FFFFFF",
+      "nodes": [
+        {
+          "type": "svg",
+          "name": "ab-primary",
+          "asset": "assets/logo/ab-primary.svg",
+          "x": 24,
+          "y": 22,
+          "w": 96,
+          "h": 57.6,
+          "viewBox": null,
+          "color": null,
+          "opacity": 1
+        },
+        {
+          "type": "text",
+          "name": "Menu",
+          "x": 304,
+          "y": 39,
+          "w": 62,
+          "h": 20,
+          "text": "Menu",
+          "size": 14,
+          "line": 20,
+          "fill": "#070808",
+          "style": "SemiBold",
+          "tracking": 0
+        },
+        {
+          "type": "line",
+          "name": "Eixo / separador",
+          "x": 24,
+          "y": 104,
+          "w": 342,
+          "h": 0,
+          "fill": "#C6CDD9",
+          "sw": 1,
+          "dash": null
+        },
+        {
+          "type": "text",
+          "name": "ESTRATÉGIA / DESIGN / IA",
+          "x": 24,
+          "y": 143,
+          "w": 342,
+          "h": 24,
+          "text": "ESTRATÉGIA / DESIGN / IA",
+          "size": 16,
+          "line": 24,
+          "fill": "#065CFB",
+          "style": "SemiBold",
+          "tracking": 1
+        },
+        {
+          "type": "text",
+          "name": "Clareza para decidir. Precisão para construir.",
+          "x": 24,
+          "y": 190,
+          "w": 342,
+          "h": 200,
+          "text": "Clareza para\ndecidir.\nPrecisão para\nconstruir.",
+          "size": 42,
+          "line": 50,
+          "fill": "#070808",
+          "style": "SemiBold",
+          "tracking": -1
+        },
+        {
+          "type": "text",
+          "name": "Investigar, dar direção e transformar entendimento em experiênci",
+          "x": 24,
+          "y": 424,
+          "w": 342,
+          "h": 84,
+          "text": "Investigar, dar direção e transformar\nentendimento em experiências que\npossam evoluir.",
+          "size": 18,
+          "line": 28,
+          "fill": "#566176",
+          "style": "Regular",
+          "tracking": 0
+        },
+        {
+          "type": "group",
+          "name": "Botão / Default",
+          "x": 24,
+          "y": 564,
+          "w": 200,
+          "h": 48,
+          "children": [
+            {
+              "type": "rect",
+              "name": "Superfície",
+              "x": 0,
+              "y": 0,
+              "w": 200,
+              "h": 48,
+              "fill": "#065CFB",
+              "radius": 8,
+              "stroke": null,
+              "sw": 1
+            },
+            {
+              "type": "text",
+              "name": "Conhecer o trabalho",
+              "x": 26.47265625,
+              "y": 14,
+              "w": 149.0546875,
+              "h": 40,
+              "text": "Conhecer o\ntrabalho",
+              "size": 14,
+              "line": 20,
+              "fill": "#FFFFFF",
+              "style": "SemiBold",
+              "tracking": 0
+            }
+          ],
+          "component": {
+            "family": "Button",
+            "Style": "Primary",
+            "State": "Default",
+            "Label": "Conhecer o trabalho"
+          }
+        },
+        {
+          "type": "svg",
+          "name": "ab-primary",
+          "asset": "assets/logo/ab-primary.svg",
+          "x": 70,
+          "y": 664,
+          "w": 250,
+          "h": 150,
+          "viewBox": null,
+          "color": null,
+          "opacity": 1
+        }
+      ],
+      "physical": null
+    },
+    {
+      "number": 3,
+      "name": "03 — Apresentação / Capa",
+      "title": "03 — Apresentação / Capa",
+      "slug": "presentation-cover",
+      "w": 1920,
+      "h": 1080,
+      "fill": "#070808",
+      "nodes": [
+        {
+          "type": "svg",
+          "name": "ab-reverse",
+          "asset": "assets/logo/ab-reverse.svg",
+          "x": 104,
+          "y": 54,
+          "w": 220,
+          "h": 132,
+          "viewBox": null,
+          "color": null,
+          "opacity": 1
+        },
+        {
+          "type": "text",
+          "name": "CADERNO DE DECISÕES",
+          "x": 492,
+          "y": 102,
+          "w": 1050,
+          "h": 24,
+          "text": "CADERNO DE DECISÕES",
+          "size": 16,
+          "line": 24,
+          "fill": "#C6CDD9",
+          "style": "SemiBold",
+          "tracking": 1
+        },
+        {
+          "type": "text",
+          "name": "Da pergunta à experiência.",
+          "x": 104,
+          "y": 310,
+          "w": 1692,
+          "h": 264,
+          "text": "Da pergunta\nà experiência.",
+          "size": 120,
+          "line": 132,
+          "fill": "#FFFFFF",
+          "style": "SemiBold",
+          "tracking": -3
+        },
+        {
+          "type": "line",
+          "name": "Eixo / separador",
+          "x": 104,
+          "y": 774,
+          "w": 1712,
+          "h": 0,
+          "fill": "#566176",
+          "sw": 1,
+          "dash": null
+        },
+        {
+          "type": "text",
+          "name": "Contexto observado. Critério explícito. Decisão de projeto. Resu",
+          "x": 108,
+          "y": 838,
+          "w": 1500,
+          "h": 92,
+          "text": "Contexto observado. Critério explícito.\nDecisão de projeto. Resultado verificado.",
+          "size": 30,
+          "line": 46,
+          "fill": "#C6CDD9",
+          "style": "Regular",
+          "tracking": 0
+        },
+        {
+          "type": "text",
+          "name": "AB / 01",
+          "x": 1648,
+          "y": 954,
+          "w": 168,
+          "h": 24,
+          "text": "AB / 01",
+          "size": 16,
+          "line": 24,
+          "fill": "#C6CDD9",
+          "style": "SemiBold",
+          "tracking": 1
+        }
+      ],
+      "physical": null
+    },
+    {
+      "number": 4,
+      "name": "04 — Social / Quadrado",
+      "title": "04 — Social / Quadrado",
+      "slug": "social-square",
+      "w": 1080,
+      "h": 1080,
+      "fill": "#070808",
+      "nodes": [
+        {
+          "type": "svg",
+          "name": "ab-reverse",
+          "asset": "assets/logo/ab-reverse.svg",
+          "x": 72,
+          "y": 50,
+          "w": 272,
+          "h": 163.2,
+          "viewBox": null,
+          "color": null,
+          "opacity": 1
+        },
+        {
+          "type": "text",
+          "name": "Uma boa decisão começa com uma boa pergunta.",
+          "x": 72,
+          "y": 322,
+          "w": 936,
+          "h": 336,
+          "text": "Uma boa decisão\ncomeça com uma\nboa pergunta.",
+          "size": 96,
+          "line": 112,
+          "fill": "#FFFFFF",
+          "style": "SemiBold",
+          "tracking": -2
+        },
+        {
+          "type": "text",
+          "name": "Inteligência em trajetória.",
+          "x": 76,
+          "y": 796,
+          "w": 832,
+          "h": 42,
+          "text": "Inteligência em trajetória.",
+          "size": 30,
+          "line": 42,
+          "fill": "#C6CDD9",
+          "style": "Regular",
+          "tracking": 0
+        },
+        {
+          "type": "circle",
+          "name": "Ponto de foco",
+          "x": 912,
+          "y": 852,
+          "w": 60,
+          "h": 60,
+          "fill": "#72A4FF"
+        },
+        {
+          "type": "text",
+          "name": "AB / ALEXANDRE BELO",
+          "x": 76,
+          "y": 968,
+          "w": 900,
+          "h": 24,
+          "text": "AB / ALEXANDRE BELO",
+          "size": 16,
+          "line": 24,
+          "fill": "#C6CDD9",
+          "style": "SemiBold",
+          "tracking": 1
+        }
+      ],
+      "physical": null
+    },
+    {
+      "number": 5,
+      "name": "05 — Social / Avatar contextual",
+      "title": "05 — Social / Avatar contextual",
+      "slug": "avatar",
+      "w": 512,
+      "h": 512,
+      "fill": "none",
+      "nodes": [
+        {
+          "type": "svg",
+          "name": "ab-micro",
+          "asset": "assets/icons/ab-micro.svg",
+          "x": 0,
+          "y": 0,
+          "w": 512,
+          "h": 512,
+          "viewBox": null,
+          "color": null,
+          "opacity": 1
+        }
+      ],
+      "physical": null
+    },
+    {
+      "number": 6,
+      "name": "06 — Cartão / Frente 90 × 50 mm",
+      "title": "06 — Cartão / Frente 90 × 50 mm",
+      "slug": "business-card-front",
+      "w": 900,
+      "h": 500,
+      "fill": "#070808",
+      "nodes": [
+        {
+          "type": "svg",
+          "name": "ab-reverse",
+          "asset": "assets/logo/ab-reverse.svg",
+          "x": 90,
+          "y": 34,
+          "w": 720,
+          "h": 432,
+          "viewBox": null,
+          "color": null,
+          "opacity": 1
+        }
+      ],
+      "physical": {
+        "width": "90mm",
+        "height": "50mm"
+      }
+    },
+    {
+      "number": 7,
+      "name": "07 — Cartão / Verso 90 × 50 mm",
+      "title": "07 — Cartão / Verso 90 × 50 mm",
+      "slug": "business-card-back",
+      "w": 900,
+      "h": 500,
+      "fill": "#FFFFFF",
+      "nodes": [
+        {
+          "type": "svg",
+          "name": "ab-primary",
+          "asset": "assets/logo/ab-primary.svg",
+          "x": 56,
+          "y": 40,
+          "w": 168,
+          "h": 100.8,
+          "viewBox": null,
+          "color": null,
+          "opacity": 1
+        },
+        {
+          "type": "text",
+          "name": "Alexandre Belo",
+          "x": 266,
+          "y": 62,
+          "w": 578,
+          "h": 60,
+          "text": "Alexandre Belo",
+          "size": 48,
+          "line": 60,
+          "fill": "#070808",
+          "style": "SemiBold",
+          "tracking": -0.7
+        },
+        {
+          "type": "text",
+          "name": "ED&IA",
+          "x": 268,
+          "y": 136,
+          "w": 530,
+          "h": 44,
+          "text": "ED&IA",
+          "size": 32,
+          "line": 44,
+          "fill": "#566176",
+          "style": "Regular",
+          "tracking": 0
+        },
+        {
+          "type": "line",
+          "name": "Eixo / separador",
+          "x": 60,
+          "y": 242,
+          "w": 780,
+          "h": 0,
+          "fill": "#C6CDD9",
+          "sw": 1,
+          "dash": null
+        },
+        {
+          "type": "text",
+          "name": "Clareza para decidir. Precisão para construir.",
+          "x": 60,
+          "y": 282,
+          "w": 780,
+          "h": 88,
+          "text": "Clareza para decidir.\nPrecisão para construir.",
+          "size": 32,
+          "line": 44,
+          "fill": "#070808",
+          "style": "Regular",
+          "tracking": 0
+        },
+        {
+          "type": "text",
+          "name": "alexandrebelo.com.br",
+          "x": 60,
+          "y": 416,
+          "w": 780,
+          "h": 44,
+          "text": "alexandrebelo.com.br",
+          "size": 32,
+          "line": 44,
+          "fill": "#065CFB",
+          "style": "Regular",
+          "tracking": 0
+        }
+      ],
+      "physical": {
+        "width": "90mm",
+        "height": "50mm"
+      }
+    },
+    {
+      "number": 8,
+      "name": "08 — Comunicação / Assinatura",
+      "title": "08 — Comunicação / Assinatura",
+      "slug": "communication-signature",
+      "w": 800,
+      "h": 200,
+      "fill": "#FFFFFF",
+      "nodes": [
+        {
+          "type": "svg",
+          "name": "ab-primary",
+          "asset": "assets/logo/ab-primary.svg",
+          "x": 0,
+          "y": 34,
+          "w": 210,
+          "h": 126,
+          "viewBox": null,
+          "color": null,
+          "opacity": 1
+        },
+        {
+          "type": "line",
+          "name": "Eixo / separador",
+          "x": 242,
+          "y": 20,
+          "w": 0,
+          "h": 160,
+          "fill": "#065CFB",
+          "sw": 2,
+          "dash": null
+        },
+        {
+          "type": "text",
+          "name": "Alexandre Belo",
+          "x": 272,
+          "y": 28,
+          "w": 520,
+          "h": 44,
+          "text": "Alexandre Belo",
+          "size": 32,
+          "line": 44,
+          "fill": "#070808",
+          "style": "SemiBold",
+          "tracking": 0
+        },
+        {
+          "type": "text",
+          "name": "ED&IA",
+          "x": 274,
+          "y": 82,
+          "w": 518,
+          "h": 28,
+          "text": "ED&IA",
+          "size": 18,
+          "line": 28,
+          "fill": "#566176",
+          "style": "Regular",
+          "tracking": 0
+        },
+        {
+          "type": "text",
+          "name": "alexandrebelo.com.br",
+          "x": 274,
+          "y": 130,
+          "w": 518,
+          "h": 28,
+          "text": "alexandrebelo.com.br",
+          "size": 18,
+          "line": 28,
+          "fill": "#065CFB",
+          "style": "Regular",
+          "tracking": 0
+        }
+      ],
+      "physical": null
+    }
+  ]
+}

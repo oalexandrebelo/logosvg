@@ -1,0 +1,226 @@
+[
+  {
+    "number": 1,
+    "title": "Capa",
+    "kicker": "Inteligência em trajetória",
+    "body": "Clareza para decidir. Precisão para construir. A identidade AB conecta uma assinatura reconhecível a um gesto de direção. As iniciais preservam a autoria; a trajetória conecta as partes; o ponto estabelece foco. O sistema organiza essa relação para telas, documentos e aplicações editoriais. Sua consistência depende de decisões reproduzíveis: qual assinatura usar, como dimensioná-la, quais cores combinar e como traduzir o conceito em linguagem e movimento.",
+    "notes": "Regra de edição: exibir “AB · Sistema de identidade · 2026”; não atribuir datas de fundação ou conquistas comerciais não documentadas."
+  },
+  {
+    "number": 2,
+    "title": "Como usar e mapa",
+    "kicker": "Uma decisão por etapa",
+    "body": "Comece pelo contexto de aplicação. Escolha a família de assinatura pelo tamanho disponível; selecione a versão pelo fundo; preserve o espaço de proteção; depois aplique tipografia, cor e elementos gráficos. A marca não deve ser redesenhada por aproximação a partir de uma captura de tela. O SVG é a matriz das assinaturas e os arquivos rasterizados atendem aos canais que não aceitam vetor.",
+    "notes": "Fluxo de seleção: contexto → largura disponível → família → fundo → proteção → conferência no tamanho final."
+  },
+  {
+    "number": 3,
+    "title": "Posicionamento proposto",
+    "kicker": "Entendimento que se transforma em experiência",
+    "body": "AB propõe conectar estratégia, design e inteligência artificial para compreender problemas, orientar decisões e construir produtos e experiências. O valor comunicado está na relação entre investigação e execução: formular a pergunta, reconhecer as restrições, escolher um caminho e transformar a decisão em algo que possa ser usado, observado e melhorado. A tecnologia participa desse trabalho como capacidade de exploração e construção.",
+    "notes": "Status: proposta autoral de posicionamento para esta identidade. O texto pode orientar comunicação sem ser apresentado como histórico comprovado da organização."
+  },
+  {
+    "number": 4,
+    "title": "Princípios",
+    "kicker": "Quatro compromissos de expressão",
+    "body": "Evidência: distinguir observação, hipótese e interpretação. Clareza: organizar a informação para tornar a decisão compreensível. Precisão: controlar o desenho, a linguagem e a execução. Aprendizado: revisar o que foi construído a partir de sinais concretos. Os quatro princípios regulam tanto a comunicação quanto a aplicação gráfica; não são uma lista de atributos decorativos. Evidência aparece em casos que informam fonte e contexto. Clareza aparece em hierarquias consistentes e mensagens diretas.",
+    "notes": "Perguntas de revisão: o que está comprovado? Qual decisão esta peça ajuda a tomar? O que precisa ser exato? O que será revisto quando houver nova evidência?"
+  },
+  {
+    "number": 5,
+    "title": "Inteligência em trajetória",
+    "kicker": "Um percurso com direção",
+    "body": "O conceito nasce de uma relação formal existente: uma linha envolve o monograma e atravessa sua estrutura até encontrar um ponto. Nesta edição, esse percurso recebe uma interpretação autoral: conectar o que se compreende ao que se decide e constrói. A marca combina estabilidade na assinatura com movimento na trajetória. O foco visual impede que a ideia de exploração se torne dispersão.",
+    "notes": "Formulação central: “Clareza para decidir. Precisão para construir.” O conceito é uma decisão de projeto, não uma alegação sobre a intenção original dos arquivos anteriores."
+  },
+  {
+    "number": 6,
+    "title": "Anatomia",
+    "kicker": "Autoria, estrutura, conexão e foco",
+    "body": "AB mantém seu significado literal: as iniciais de Alexandre Belo. O A apresenta abertura e direção ascendente; o B oferece massa e resolução à composição. A trajetória relaciona as duas letras e gera profundidade pela passagem frontal e posterior. O ponto é o foco da composição. O espaço negativo mantém as partes legíveis e torna o encontro um detalhe deliberado.",
+    "notes": "Ordem de leitura desejada: identificar AB; perceber uma trajetória; encontrar o ponto; reconhecer o entrelaçamento ao observar de perto."
+  },
+  {
+    "number": 7,
+    "title": "Evolução ALVB → AB → órbita",
+    "kicker": "Continuidade documentada",
+    "body": "O anexo comparativo apresenta “ALVB” e uma versão condensada em “AB”, ambas serifadas e com contraste acentuado. Os SVGs fornecidos apresentam o AB associado a uma órbita. O refinamento preserva esse repertório e concentra a edição na continuidade das curvas, nos encontros e na leitura em redução. Essa sequência descreve os materiais disponíveis; não determina uma cronologia histórica além do que foi documentado.",
+    "notes": "Legenda correta: “Referências fornecidas → consolidação AB → refinamento desta edição”. A autoria e a licença de cada recurso tipográfico permanecem separadas da narrativa da marca."
+  },
+  {
+    "number": 8,
+    "title": "Ajustes reais e negativo",
+    "kicker": "A diferença precisa estar no contorno",
+    "body": "O refinamento trabalha a continuidade do B, a relação entre os corpos do monograma e a passagem da trajetória. O espaço negativo separa a curva azul das letras por recortes reais, permitindo reprodução transparente. O ponto é construído como círculo. A alteração precisa ser demonstrada por ampliações na mesma escala, com atenção à cintura do B, à diagonal do A e aos encontros com a curva frontal.",
+    "notes": "Nota técnica: remover o grupo da órbita do arquivo entrelaçado deixa recortes nas letras. Uma assinatura sem órbita exige contornos recompostos."
+  },
+  {
+    "number": 9,
+    "title": "Construção medida",
+    "kicker": "Medir o desenho existente",
+    "body": "A matriz principal utiliza viewBox=\"0 0 1000 600\". As letras ocupam verticalmente de y=50 a y=550, formando altura visível de 500 unidades. A unidade de referência desta edição é x = 50 unidades, equivalente a 10% dessa altura. A construção deve mostrar linha superior, base, limites visíveis, eixo dos elementos e centro do ponto, com medidas retiradas da matriz correspondente.",
+    "notes": "Referência operacional: dimensione variantes pelo arquivo completo; meça proteção a partir da tinta visível, incluindo a trajetória e o ponto."
+  },
+  {
+    "number": 10,
+    "title": "Principal e reversa",
+    "kicker": "A mesma assinatura em dois ambientes",
+    "body": "A versão principal combina letras #070808 e trajetória #065CFB sobre fundo claro. A reversa combina letras #FFFFFF e a mesma trajetória azul sobre fundo escuro. A troca de ambiente não altera proporção, distância entre elementos, espessura ou inclinação. Cada variante deve partir da matriz oficial, com identificação clara de sua função. A assinatura principal pode ocupar capas, cabeçalhos amplos e páginas institucionais. A reversa atende às aplicações escuras correspondentes.",
+    "notes": "Tamanho digital: usar a matriz principal a partir de 96 px de largura. Essa largura é do SVG completo; a altura acompanha sua proporção de 5:3."
+  },
+  {
+    "number": 11,
+    "title": "Assinaturas Alexandre Belo / AB ED&IA",
+    "kicker": "Nome e contexto sem redundância",
+    "body": "O monograma pode acompanhar duas assinaturas textuais: Alexandre Belo, para identificação nominal; e AB ED&IA, quando essa forma de apresentação for necessária. O nome deve permanecer em Sora, com proporção subordinada ao símbolo. Evitar apresentar simultaneamente monograma, nome completo, sigla e frase de posicionamento em áreas pequenas. Cada informação precisa ter função no contexto. Na assinatura horizontal, alinhar o bloco de texto pela área óptica central das letras, considerando a projeção do ponto à direita.",
+    "notes": "Norma de nomenclatura: escrever “AB ED&IA” literalmente. Esta edição não inventa expansão da sigla, razão social, CNPJ nem relação societária com outras marcas."
+  },
+  {
+    "number": 12,
+    "title": "Monocromia",
+    "kicker": "A forma precisa sustentar a marca",
+    "body": "As versões monocromáticas aplicam uma única cor à assinatura inteira: preto em superfícies claras e branco em superfícies escuras. Os vazios continuam transparentes e preservam o entrelaçamento. A versão branca não contém um retângulo de fundo. A versão preta não é uma conversão automática para tons de cinza; todos os componentes recebem a mesma tinta. Essa família atende à reprodução em uma cor e aos contextos em que o azul não está disponível ou não oferece separação suficiente.",
+    "notes": "Critério de aprovação: letras, trajetória e ponto continuam reconhecíveis; não aparecem massas unidas, furos fechados ou partes desaparecidas."
+  },
+  {
+    "number": 13,
+    "title": "Proteção",
+    "kicker": "O espaço também faz parte da assinatura",
+    "body": "A área de proteção mínima corresponde a x = 50 unidades ao redor do limite visível da matriz principal. A medida considera todas as partes: letras, trajetória e ponto. Nenhum texto, borda, ícone ou marca concorrente pode entrar nessa área. A proteção não é calculada a partir da largura nominal do viewBox, mas do contorno externo efetivamente ocupado. O arquivo atual tem margens internas próximas de 47,5–50 unidades.",
+    "notes": "Exemplo: a 100 px de largura nominal, 50 unidades equivalem a 5 px CSS; a reserva externa ainda deve ser medida a partir do limite visível."
+  },
+  {
+    "number": 14,
+    "title": "Escala responsiva",
+    "kicker": "Cada faixa pede uma construção",
+    "body": "A família principal atende a larguras a partir de 96 px. A compacta cobre 64–95 px, com compensações nos detalhes finos. A micro A·, formada pelo A serifado recomposto e pelo ponto, atende a 16–63 px e foi aprovada nos rasters de 16, 24 e 32 px. Essa derivação omite deliberadamente B e trajetória; não é o monograma completo reduzido. Densidade de pixels e antisserrilhamento continuam relevantes na aplicação.",
+    "notes": "Regra de contexto: A· é uma assinatura abreviada. Preservar AB completo na primeira apresentação da marca; utilizar a micro onde a identificação já estiver estabelecida."
+  },
+  {
+    "number": 15,
+    "title": "Fundos",
+    "kicker": "Contraste antes do efeito",
+    "body": "Priorize superfícies uniformes da paleta. Sobre branco ou cinza claro, use a principal. Sobre preto, use a reversa ou a branca. Sobre azul de marca, use a assinatura branca. Em fotografia, localize uma área tranquila com contraste suficiente ou adote uma superfície uniforme de apoio. A composição deve preservar os vazios e a presença do ponto. Não usar sombra, brilho, halo ou contorno para resgatar uma marca aplicada em fundo inadequado.",
+    "notes": "Conferência: verificar a aplicação no tamanho final, no modo claro e escuro e sobre o conteúdo que realmente estará atrás da assinatura."
+  },
+  {
+    "number": 16,
+    "title": "Usos incorretos",
+    "kicker": "Alterações que quebram a leitura",
+    "body": "Não deformar o SVG, girar o monograma, deslocar o ponto, engrossar contornos arbitrariamente, recolorir cada letra ou reconstruir a assinatura com uma fonte semelhante. Não fechar os vazios, separar o arco frontal do posterior, inverter o percurso nem substituir o círculo por um efeito luminoso. A geometria oficial não deve ser utilizada como um conjunto de partes livremente intercambiáveis. Também são incorretos: converter a assinatura branca em um retângulo branco; aplicar transparência ao logo inteiro; usar a principal abaixo de sua faixa; retirar a órbita sem restaurar os contornos; alterar o espaçamento do descritor; ou confundir o elemento gráfico derivado com uma nova assinatura.",
+    "notes": "Regra de decisão: uma necessidade recorrente gera uma variante documentada. Uma adaptação improvisada não se torna oficial por repetição."
+  },
+  {
+    "number": 17,
+    "title": "Paleta",
+    "kicker": "Cor por função",
+    "body": "O núcleo utiliza Preto AB #070808, Azul AB #065CFB e Branco #FFFFFF. A família de apoio acrescenta Superfície #F4F6FA, Linha #C6CDD9, Texto secundário #566176 e Azul claro #72A4FF. Preto e branco estruturam a leitura; azul destaca trajetórias e ações; neutros organizam superfícies e informação secundária. Azul claro atende ao texto e ao foco em ambientes escuros. A hierarquia cromática deve permanecer consistente.",
+    "notes": "As referências digitais são sRGB. Para impressão, converter com o perfil e o processo definidos pelo fornecedor e aprovar prova física. Não há equivalência CMYK universal ou Pantone atribuída nesta edição."
+  },
+  {
+    "number": 18,
+    "title": "Contraste e acessibilidade",
+    "kicker": "Papéis que continuam legíveis",
+    "body": "Texto corrente exige no mínimo 4,5:1; texto grande e informação visual essencial utilizam 3:1 conforme a WCAG. Branco/preto AB alcança 20,052:1 e branco/azul, 5,341:1. Azul AB sobre preto chega a 3,754:1 e não atende ao mínimo AA para texto pequeno. No tema escuro, utilizar azul claro #72A4FF para esse papel: 8,087:1. Texto secundário sobre branco atinge 6,237:1. Erros e seleção também precisam de rótulo ou forma.",
+    "notes": "Escopo: as regras desta prancha orientam a identidade; conformidade de uma aplicação também depende de semântica, teclado, zoom e comportamento implementados."
+  },
+  {
+    "number": 19,
+    "title": "Tipografia Sora",
+    "kicker": "Continuidade com a referência AB",
+    "body": "Sora é a família textual desta edição, preservando uma referência presente no material AB do Figma. Ela atende a títulos, texto corrente, rótulos e aplicações digitais. O logotipo permanece como desenho vetorial independente: não é reproduzido digitando “AB” em Sora nem em uma serifada semelhante. SargassoDisplay integra o repertório observado no arquivo de referência, sem substituir a matriz do monograma.",
+    "notes": "Fonte técnica: repositório oficial Sora. Em sistemas, prever fallback sem serifa até o carregamento da fonte, sem converter conteúdo corrente em imagem."
+  },
+  {
+    "number": 20,
+    "title": "Hierarquia e tracking",
+    "kicker": "Tamanhos com função definida",
+    "body": "A escala oficial distingue aplicação editorial ampla e interface. Os pares tamanho/entrelinha são: Display 120/128 px; Title 64/72; Heading 40/48; Subheading 24/32; Book Body 22/34; Body 16/24; Label 14/20; Caption 14/22; Eyebrow 16/24. Display, Title, Heading, Subheading, Label e Eyebrow usam SemiBold; os demais, Regular. As pranchas amplas utilizam Book Body; interfaces utilizam Body. Em telas estreitas, ajustar títulos sem comprimir letras.",
+    "notes": "Integridade: não comprimir letras para fazer um título caber. Ajuste a redação, a largura da coluna ou o tamanho dentro da escala."
+  },
+  {
+    "number": 21,
+    "title": "Grid e layout",
+    "kicker": "Estrutura silenciosa",
+    "body": "Use uma base de espaçamento de 8 px, com subdivisão de 4 px para ajustes locais. Interfaces amplas podem utilizar 12 colunas; telas intermediárias, 8; telas estreitas, 4. Margens iniciais de 64, 32 e 20 px organizam essas faixas, com adaptação ao conteúdo e ao espaço efetivo. A área de proteção da marca continua obrigatória mesmo quando o grid utiliza uma unidade menor.",
+    "notes": "Regra editorial: um foco por área; proximidade para informação relacionada; intervalo maior entre assuntos distintos; nenhuma decoração atravessa a leitura."
+  },
+  {
+    "number": 22,
+    "title": "Elementos gráficos",
+    "kicker": "A trajetória como vocabulário",
+    "body": "A trajetória e o ponto formam o vocabulário secundário. Arcos ampliados podem enquadrar áreas, conectar etapas ou orientar o olhar. Pontos podem marcar uma decisão, uma etapa selecionada ou uma chamada. Esses elementos derivam da assinatura e preservam sua lógica de continuidade e foco. Não é necessário repetir a marca completa em todas as partes da composição. Use um gesto dominante por peça. Linhas auxiliares mais leves podem explicar construção ou relação, mas não devem competir com o percurso principal.",
+    "notes": "Limite: o fragmento é elemento de composição. A identificação institucional utiliza uma assinatura completa em outra área apropriada da peça."
+  },
+  {
+    "number": 23,
+    "title": "Ícones e ilustração",
+    "kicker": "Clareza de função e precisão de forma",
+    "body": "Ícones operacionais utilizam grade de 24 × 24 px, espessura inicial de 1,75 px, alinhamento óptico e curvas consistentes. O conjunto deve apresentar funções distinguíveis sem depender de efeitos. Ícones podem acompanhar rótulos; quando usados sozinhos em controles, precisam de nome acessível. A linguagem ilustrativa utiliza geometria simples, contraste entre massas e linhas e pontos de foco associados a relações compreensíveis.",
+    "notes": "Critério: o símbolo explica a ação; o rótulo confirma; a marca estabelece autoria. Cada camada tem uma função própria."
+  },
+  {
+    "number": 24,
+    "title": "Movimento",
+    "kicker": "O gesto termina em foco",
+    "body": "O movimento institucional apresenta a trajetória e conclui no ponto, deixando o monograma estável. A sequência oficial dura 600 ms, executa uma vez e utiliza curva de saída cubic-bezier(0.22, 1, 0.36, 1). A assinatura permanece compreensível desde o início; o estado final coincide exatamente com a versão estática. Essa duração é uma decisão da identidade, não um requisito técnico universal.",
+    "notes": "Implementação: escolher uma única fonte de tempo para os elementos relacionados; interromper efeitos fora de uso e evitar saltos de layout."
+  },
+  {
+    "number": 25,
+    "title": "Voz",
+    "kicker": "Direta, criteriosa e autoral",
+    "body": "A voz AB começa pelo que a pessoa precisa compreender ou decidir. Explica o problema observado, a intervenção e o limite da evidência. Prefere verbos concretos: investigar, organizar, decidir, construir, testar e aprender. A linguagem pode ser técnica quando isso ajuda a avaliar uma escolha. O uso de IA é descrito por sua função no trabalho, sem promessa de autonomia absoluta ou resultado garantido.",
+    "notes": "Tom aplicado: frases claras, títulos informativos e detalhes suficientes para a decisão. A firmeza vem da precisão, não de linguagem agressiva ou de promessas de superioridade."
+  },
+  {
+    "number": 26,
+    "title": "UI kit",
+    "kicker": "A identidade em componentes utilizáveis",
+    "body": "O kit entregue contém botões Primary, Secondary e Ghost nos estados Default, Hover, Focus e Disabled; campos nos estados Default, Focus, Error e Disabled; badges em quatro tons; um card; e oito ícones de interface. Default é padrão; Hover indica passagem do ponteiro; Focus indica foco; Disabled identifica indisponibilidade; Error indica erro de campo. O azul diferencia a ação principal, os neutros estruturam o conteúdo e o azul claro mantém o foco legível no tema escuro. Rótulos identificam ações e campos.",
+    "notes": "Escopo desta edição: botões, campos, badges, card e ícones. O material de template UI Magic não amplia o conjunto entregue."
+  },
+  {
+    "number": 27,
+    "title": "Aplicação digital",
+    "kicker": "Marca estável, conteúdo prioritário",
+    "body": "No cabeçalho de um site, use principal ou compacta de acordo com a largura nominal e preserve a área de proteção no componente. O SVG deve manter proporção e dimensões reservadas para evitar deslocamento. Em perfis e ícones de aplicação, utilize a variante adequada ao recorte quadrado e confira a zona que a plataforma poderá cortar. O favicon recebe a família micro validada para sua resolução.",
+    "notes": "Integridade técnica: não incorporar imagens rasterizadas, dependências de fonte ou recursos externos ao SVG da assinatura."
+  },
+  {
+    "number": 28,
+    "title": "Editorial e case",
+    "kicker": "Demonstrar a decisão",
+    "body": "Um case AB apresenta problema, contexto, evidência, decisão, execução e resultado observado. O formato permite compreender por que a solução existe e quais limites permanecem. Capas utilizam título informativo, categoria e assinatura discreta. Páginas internas preservam Sora, hierarquia e margens; imagens recebem legenda com origem e função. O percurso gráfico pode conectar etapas sem substituir a documentação do trabalho. Resultados quantitativos incluem unidade, período e fonte.",
+    "notes": "Abertura sugerida: “O que precisava mudar”, seguida por uma descrição concreta. O leitor deve entender o desafio antes de encontrar a solução apresentada."
+  },
+  {
+    "number": 29,
+    "title": "Social",
+    "kicker": "Uma ideia por peça",
+    "body": "Peças sociais devem sustentar uma mensagem dominante. Em carrosséis, a primeira tela apresenta a pergunta ou decisão; as seguintes mostram a evidência e o raciocínio; a última identifica a autoria e o próximo passo. Use formatos de trabalho 1080 × 1080, 1080 × 1350 e 1080 × 1920 px, com conferência no canal de publicação. Esses formatos são matrizes de composição, não promessa de compatibilidade permanente de plataformas.",
+    "notes": "Consistência: Sora, contraste forte, um acento dominante e identificação clara. A identidade não exige colocar a órbita em todos os slides."
+  },
+  {
+    "number": 30,
+    "title": "Assinatura e cartão",
+    "kicker": "Identificação legível",
+    "body": "A assinatura profissional organiza nome, função, contato e marca por relevância. Utilize Alexandre Belo como identificação nominal e AB ED&IA apenas quando esse contexto estiver definido. No email, prefira texto real para nome e contatos; a imagem da marca complementa a informação. No cartão, a frente pode priorizar a assinatura e o verso os dados. O destinatário deve localizar o contato sem depender de um QR code.",
+    "notes": "Reprodução: os mínimos digitais do monograma não são convertidos automaticamente em milímetros. Processo, substrato e acabamento definem a prova necessária."
+  },
+  {
+    "number": 31,
+    "title": "Ativos e manutenção",
+    "kicker": "Uma origem, variantes identificadas",
+    "body": "Mantenha uma matriz oficial por família e gere exportações a partir dela. Identifique função, cor e formato nos nomes dos arquivos: principal, reversa, preta, branca, compacta e micro. Separe arquivos de referência, fontes licenciadas, matrizes, exportações, documentação e evidências de conferência. Registre versão, data e motivo quando uma alteração modificar a geometria ou uma regra de aplicação. O pacote de distribuição deve permitir localizar a assinatura correta sem abrir todos os arquivos.",
+    "notes": "Governança: ajustar uma peça não altera a identidade inteira. Uma nova matriz exige motivo documentado, conferência e identificação explícita antes de substituir a anterior."
+  },
+  {
+    "number": 32,
+    "title": "Fontes e créditos",
+    "kicker": "Evidência, método e autoria",
+    "body": "As bases visuais são os SVGs e imagens fornecidos por Alexandre Belo e o Figma AB — AB ED&IA, incluindo a seleção de referência. A sequência ALVB → AB e a imagem do “a” são referências fornecidas, sem autoria externa presumida. O UI kit WOOW na Awwwards inspira o método de demonstrar assinatura, construção e derivação. A logo-designer-skill de neonwatty orienta o trabalho vetorial. Essas referências não transferem a identidade visual de terceiros para AB.",
+    "notes": "Autoria desta edição: conceito, normas e composição são decisões de projeto propostas para AB. Informações comerciais, histórias institucionais e expansões de siglas não demonstradas pelas fontes foram deliberadamente excluídas. Arquivo desta edição: https://www.figma.com/design/VTETqqBjYKD3bNACqqwS0A"
+  }
+]

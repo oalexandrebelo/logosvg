@@ -1,0 +1,50 @@
+{
+  "name": "AB — Alexandre Belo",
+  "version": "1.0.0",
+  "concept": "Inteligência em trajetória",
+  "palette": {
+    "ink": "#070808", "blue": "#065CFB", "white": "#FFFFFF",
+    "paper": "#F4F6FA", "line": "#C6CDD9", "muted": "#566176",
+    "focus": "#72A4FF", "dark-surface": "#141A25", "blue-hover": "#004BD6",
+    "error": "#B42318", "success": "#176B47", "blue-soft": "#EAF1FF"
+  },
+  "semantic": {
+    "bg": {"Light":"white","Dark":"ink"},
+    "surface": {"Light":"paper","Dark":"dark-surface"},
+    "fg": {"Light":"ink","Dark":"white"},
+    "muted": {"Light":"muted","Dark":"line"},
+    "border": {"Light":"muted","Dark":"line"},
+    "accent": {"Light":"blue","Dark":"blue"},
+    "accent-hover": {"Light":"blue-hover","Dark":"blue-hover"},
+    "on-accent": {"Light":"white","Dark":"white"},
+    "focus": {"Light":"blue","Dark":"focus"},
+    "error": {"Light":"error","Dark":"white"},
+    "success": {"Light":"success","Dark":"white"},
+    "selection": {"Light":"blue-soft","Dark":"dark-surface"}
+  },
+  "dimensions": {
+    "space": {"0":0,"1":4,"2":8,"3":12,"4":16,"6":24,"8":32,"12":48,"16":64,"24":96,"page":104},
+    "radius": {"none":0,"control":8,"card":24},
+    "size": {"icon":24,"control":48,"touch":44}
+  },
+  "typography": {
+    "family":"Sora",
+    "logo":"Desenho vetorial proprietário; não redigitar em fonte.",
+    "source":"https://github.com/google/fonts/tree/main/ofl/sora",
+    "license":"SIL Open Font License 1.1; assets/fonts/OFL.txt",
+    "styles": [
+      {"name":"AB / Display","style":"SemiBold","size":120,"line":128,"tracking":-3},
+      {"name":"AB / Title","style":"SemiBold","size":64,"line":72,"tracking":-1.5},
+      {"name":"AB / Heading","style":"SemiBold","size":40,"line":48,"tracking":-0.7},
+      {"name":"AB / Subheading","style":"SemiBold","size":24,"line":32,"tracking":-0.2},
+      {"name":"AB / Book Body","style":"Regular","size":22,"line":34,"tracking":0},
+      {"name":"AB / Body","style":"Regular","size":16,"line":24,"tracking":0},
+      {"name":"AB / Label","style":"SemiBold","size":14,"line":20,"tracking":0},
+      {"name":"AB / Caption","style":"Regular","size":14,"line":22,"tracking":0},
+      {"name":"AB / Eyebrow","style":"SemiBold","size":16,"line":24,"tracking":1.2}
+    ]
+  },
+  "motion":{"duration_ms":{"fast":120,"state":200,"signature":600},"ease_out":[0.22,1,0.36,1],"signature_iterations":1,"reduced_motion":"Mostrar a assinatura completa estática; remover deslocamento, escala e desenho de percurso."},
+  "logo":{"viewBox":[0,0,1000,600],"visibleBounds":[47.5,50,952.25,550],"protection":50,"primary_min_css_width":96,"compact_css_width":[64,95],"micro_css_width":[16,63],"point":{"cx":930,"cy":169,"r":22.25}},
+  "figma":{"fileKey":"VTETqqBjYKD3bNACqqwS0A","url":"https://www.figma.com/design/VTETqqBjYKD3bNACqqwS0A"}
+}

@@ -1,0 +1,13 @@
+{
+  "canonical_vectors_unchanged": 22,
+  "repeated_build_files": 46,
+  "clean_font_cache_repeat_differences": [],
+  "pdf_sha256": "16c51969c999c8a0f11714c9660aebb919251e2f458f894f6498f60fbba2d2bd",
+  "pdf_bytes": 132455,
+  "font_timestamps": "Preserved from the included source TTF",
+  "font_cache": "Invalidated by source SHA-256 and recipe version",
+  "drawing_and_text_streams_identical_to_visually_approved_pdf": true,
+  "only_embedded_font_table_changes": [
+    "head"
+  ]
+}

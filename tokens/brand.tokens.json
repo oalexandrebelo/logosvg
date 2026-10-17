@@ -1,0 +1,594 @@
+{
+  "schema": "ab-figma-tokens/1",
+  "collections": [
+    {
+      "name": "AB / Primitives",
+      "modes": [
+        "Value"
+      ],
+      "tokens": [
+        {
+          "name": "ink",
+          "type": "COLOR",
+          "values": {
+            "Value": "#070808"
+          },
+          "scopes": [],
+          "css": "--ab-palette-ink"
+        },
+        {
+          "name": "blue",
+          "type": "COLOR",
+          "values": {
+            "Value": "#065CFB"
+          },
+          "scopes": [],
+          "css": "--ab-palette-blue"
+        },
+        {
+          "name": "white",
+          "type": "COLOR",
+          "values": {
+            "Value": "#FFFFFF"
+          },
+          "scopes": [],
+          "css": "--ab-palette-white"
+        },
+        {
+          "name": "paper",
+          "type": "COLOR",
+          "values": {
+            "Value": "#F4F6FA"
+          },
+          "scopes": [],
+          "css": "--ab-palette-paper"
+        },
+        {
+          "name": "line",
+          "type": "COLOR",
+          "values": {
+            "Value": "#C6CDD9"
+          },
+          "scopes": [],
+          "css": "--ab-palette-line"
+        },
+        {
+          "name": "muted",
+          "type": "COLOR",
+          "values": {
+            "Value": "#566176"
+          },
+          "scopes": [],
+          "css": "--ab-palette-muted"
+        },
+        {
+          "name": "focus",
+          "type": "COLOR",
+          "values": {
+            "Value": "#72A4FF"
+          },
+          "scopes": [],
+          "css": "--ab-palette-focus"
+        },
+        {
+          "name": "dark-surface",
+          "type": "COLOR",
+          "values": {
+            "Value": "#141A25"
+          },
+          "scopes": [],
+          "css": "--ab-palette-dark-surface"
+        },
+        {
+          "name": "blue-hover",
+          "type": "COLOR",
+          "values": {
+            "Value": "#004BD6"
+          },
+          "scopes": [],
+          "css": "--ab-palette-blue-hover"
+        },
+        {
+          "name": "error",
+          "type": "COLOR",
+          "values": {
+            "Value": "#B42318"
+          },
+          "scopes": [],
+          "css": "--ab-palette-error"
+        },
+        {
+          "name": "success",
+          "type": "COLOR",
+          "values": {
+            "Value": "#176B47"
+          },
+          "scopes": [],
+          "css": "--ab-palette-success"
+        },
+        {
+          "name": "blue-soft",
+          "type": "COLOR",
+          "values": {
+            "Value": "#EAF1FF"
+          },
+          "scopes": [],
+          "css": "--ab-palette-blue-soft"
+        }
+      ]
+    },
+    {
+      "name": "AB / Color",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "tokens": [
+        {
+          "name": "bg",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "AB / Primitives/white"
+            },
+            "Dark": {
+              "alias": "AB / Primitives/ink"
+            }
+          },
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "css": "--ab-color-bg"
+        },
+        {
+          "name": "surface",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "AB / Primitives/paper"
+            },
+            "Dark": {
+              "alias": "AB / Primitives/dark-surface"
+            }
+          },
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "css": "--ab-color-surface"
+        },
+        {
+          "name": "fg",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "AB / Primitives/ink"
+            },
+            "Dark": {
+              "alias": "AB / Primitives/white"
+            }
+          },
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "css": "--ab-color-fg"
+        },
+        {
+          "name": "muted",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "AB / Primitives/muted"
+            },
+            "Dark": {
+              "alias": "AB / Primitives/line"
+            }
+          },
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "css": "--ab-color-muted"
+        },
+        {
+          "name": "border",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "AB / Primitives/muted"
+            },
+            "Dark": {
+              "alias": "AB / Primitives/line"
+            }
+          },
+          "scopes": [
+            "STROKE_COLOR"
+          ],
+          "css": "--ab-color-border"
+        },
+        {
+          "name": "accent",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "AB / Primitives/blue"
+            },
+            "Dark": {
+              "alias": "AB / Primitives/blue"
+            }
+          },
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "css": "--ab-color-accent"
+        },
+        {
+          "name": "accent-hover",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "AB / Primitives/blue-hover"
+            },
+            "Dark": {
+              "alias": "AB / Primitives/blue-hover"
+            }
+          },
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "css": "--ab-color-accent-hover"
+        },
+        {
+          "name": "on-accent",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "AB / Primitives/white"
+            },
+            "Dark": {
+              "alias": "AB / Primitives/white"
+            }
+          },
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "css": "--ab-color-on-accent"
+        },
+        {
+          "name": "focus",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "AB / Primitives/blue"
+            },
+            "Dark": {
+              "alias": "AB / Primitives/focus"
+            }
+          },
+          "scopes": [
+            "STROKE_COLOR"
+          ],
+          "css": "--ab-color-focus"
+        },
+        {
+          "name": "error",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "AB / Primitives/error"
+            },
+            "Dark": {
+              "alias": "AB / Primitives/white"
+            }
+          },
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "css": "--ab-color-error"
+        },
+        {
+          "name": "success",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "AB / Primitives/success"
+            },
+            "Dark": {
+              "alias": "AB / Primitives/white"
+            }
+          },
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "css": "--ab-color-success"
+        },
+        {
+          "name": "selection",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "AB / Primitives/blue-soft"
+            },
+            "Dark": {
+              "alias": "AB / Primitives/dark-surface"
+            }
+          },
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL"
+          ],
+          "css": "--ab-color-selection"
+        }
+      ]
+    },
+    {
+      "name": "AB / Geometry",
+      "modes": [
+        "Value"
+      ],
+      "tokens": [
+        {
+          "name": "space/0",
+          "type": "FLOAT",
+          "values": {
+            "Value": 0
+          },
+          "scopes": [
+            "GAP"
+          ],
+          "css": "--ab-space-0"
+        },
+        {
+          "name": "space/1",
+          "type": "FLOAT",
+          "values": {
+            "Value": 4
+          },
+          "scopes": [
+            "GAP"
+          ],
+          "css": "--ab-space-1"
+        },
+        {
+          "name": "space/2",
+          "type": "FLOAT",
+          "values": {
+            "Value": 8
+          },
+          "scopes": [
+            "GAP"
+          ],
+          "css": "--ab-space-2"
+        },
+        {
+          "name": "space/3",
+          "type": "FLOAT",
+          "values": {
+            "Value": 12
+          },
+          "scopes": [
+            "GAP"
+          ],
+          "css": "--ab-space-3"
+        },
+        {
+          "name": "space/4",
+          "type": "FLOAT",
+          "values": {
+            "Value": 16
+          },
+          "scopes": [
+            "GAP"
+          ],
+          "css": "--ab-space-4"
+        },
+        {
+          "name": "space/6",
+          "type": "FLOAT",
+          "values": {
+            "Value": 24
+          },
+          "scopes": [
+            "GAP"
+          ],
+          "css": "--ab-space-6"
+        },
+        {
+          "name": "space/8",
+          "type": "FLOAT",
+          "values": {
+            "Value": 32
+          },
+          "scopes": [
+            "GAP"
+          ],
+          "css": "--ab-space-8"
+        },
+        {
+          "name": "space/12",
+          "type": "FLOAT",
+          "values": {
+            "Value": 48
+          },
+          "scopes": [
+            "GAP"
+          ],
+          "css": "--ab-space-12"
+        },
+        {
+          "name": "space/16",
+          "type": "FLOAT",
+          "values": {
+            "Value": 64
+          },
+          "scopes": [
+            "GAP"
+          ],
+          "css": "--ab-space-16"
+        },
+        {
+          "name": "space/24",
+          "type": "FLOAT",
+          "values": {
+            "Value": 96
+          },
+          "scopes": [
+            "GAP"
+          ],
+          "css": "--ab-space-24"
+        },
+        {
+          "name": "space/page",
+          "type": "FLOAT",
+          "values": {
+            "Value": 104
+          },
+          "scopes": [
+            "GAP"
+          ],
+          "css": "--ab-space-page"
+        },
+        {
+          "name": "radius/none",
+          "type": "FLOAT",
+          "values": {
+            "Value": 0
+          },
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "css": "--ab-radius-none"
+        },
+        {
+          "name": "radius/control",
+          "type": "FLOAT",
+          "values": {
+            "Value": 8
+          },
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "css": "--ab-radius-control"
+        },
+        {
+          "name": "radius/card",
+          "type": "FLOAT",
+          "values": {
+            "Value": 24
+          },
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "css": "--ab-radius-card"
+        },
+        {
+          "name": "size/icon",
+          "type": "FLOAT",
+          "values": {
+            "Value": 24
+          },
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "css": "--ab-size-icon"
+        },
+        {
+          "name": "size/control",
+          "type": "FLOAT",
+          "values": {
+            "Value": 48
+          },
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "css": "--ab-size-control"
+        },
+        {
+          "name": "size/touch",
+          "type": "FLOAT",
+          "values": {
+            "Value": 44
+          },
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "css": "--ab-size-touch"
+        }
+      ]
+    }
+  ],
+  "textStyles": [
+    {
+      "name": "AB / Display",
+      "style": "SemiBold",
+      "size": 120,
+      "line": 128,
+      "tracking": -3
+    },
+    {
+      "name": "AB / Title",
+      "style": "SemiBold",
+      "size": 64,
+      "line": 72,
+      "tracking": -1.5
+    },
+    {
+      "name": "AB / Heading",
+      "style": "SemiBold",
+      "size": 40,
+      "line": 48,
+      "tracking": -0.7
+    },
+    {
+      "name": "AB / Subheading",
+      "style": "SemiBold",
+      "size": 24,
+      "line": 32,
+      "tracking": -0.2
+    },
+    {
+      "name": "AB / Book Body",
+      "style": "Regular",
+      "size": 22,
+      "line": 34,
+      "tracking": 0
+    },
+    {
+      "name": "AB / Body",
+      "style": "Regular",
+      "size": 16,
+      "line": 24,
+      "tracking": 0
+    },
+    {
+      "name": "AB / Label",
+      "style": "SemiBold",
+      "size": 14,
+      "line": 20,
+      "tracking": 0
+    },
+    {
+      "name": "AB / Caption",
+      "style": "Regular",
+      "size": 14,
+      "line": 22,
+      "tracking": 0
+    },
+    {
+      "name": "AB / Eyebrow",
+      "style": "SemiBold",
+      "size": 16,
+      "line": 24,
+      "tracking": 1.2
+    }
+  ]
+}

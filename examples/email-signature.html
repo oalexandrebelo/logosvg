@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>AB — Assinatura de e-mail</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 48px 24px; background: #F4F6FA; color: #070808; font-family: Arial, Helvetica, sans-serif; line-height: 1.6; }
+    main { max-width: 720px; margin: auto; }
+    h1 { font-size: 28px; line-height: 1.2; letter-spacing: -0.5px; margin: 0 0 12px; }
+    .intro, .instructions { color: #566176; font-size: 14px; }
+    .signature-preview { margin-block: 32px; padding: 32px; background: #FFFFFF; border: 1px solid #C6CDD9; border-radius: 16px; overflow-x: auto; }
+    a { color: #065CFB; text-underline-offset: 4px; }
+    a:focus-visible { outline: 3px solid #065CFB; outline-offset: 4px; }
+    .instructions { margin-top: 24px; }
+    .instructions strong { color: #070808; }
+    .back { display: inline-block; margin-top: 24px; min-height: 44px; padding-block: 10px; font-size: 14px; }
+    @media (max-width: 520px) { body { padding: 32px 16px; } .signature-preview { padding: 20px 16px; } }
+    @media print { body { background: white; } .intro, .instructions, .back, h1 { display: none; } .signature-preview { border: 0; padding: 0; margin: 0; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Assinatura de e-mail</h1>
+    <p class="intro">Uma aplicação compacta da identidade, com nome, campo de atuação e endereço do site.</p>
+    <section class="signature-preview" aria-label="Prévia da assinatura de Alexandre Belo">
+      <!-- Copy this presentation table into the email client's signature editor. -->
+      <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;background:#FFFFFF;color:#070808;font-family:Arial,Helvetica,sans-serif;max-width:100%;">
+        <tr>
+          <td style="padding:0 24px 0 0;vertical-align:middle;border-right:2px solid #065CFB;">
+            <a href="https://alexandrebelo.com.br" style="text-decoration:none;display:block;" aria-label="Visitar o site de Alexandre Belo"><img src="../assets/png/ab-primary-192.png" alt="AB — Alexandre Belo" width="96" style="display:block;border:0;width:96px;height:auto;"></a>
+          </td>
+          <td style="padding:0 0 0 24px;vertical-align:middle;">
+            <p style="margin:0 0 4px;color:#070808;font-size:18px;line-height:24px;font-weight:700;">Alexandre Belo</p>
+            <p style="margin:0 0 10px;color:#566176;font-size:12px;line-height:18px;">Design, dados e inteligência artificial.</p>
+            <p style="margin:0;font-size:12px;line-height:20px;"><a href="https://alexandrebelo.com.br" style="color:#065CFB;text-decoration:underline;">alexandrebelo.com.br</a></p>
+          </td>
+        </tr>
+      </table>
+    </section>
+    <div class="instructions">
+      <p><strong>Ao instalar no seu cliente de e-mail:</strong> utilize apenas a tabela da assinatura. Insira o PNG pelo próprio editor para que ele seja anexado à assinatura, ou hospede a imagem em um endereço HTTPS sob seu controle. O caminho relativo desta prévia serve para abrir o arquivo localmente.</p>
+      <p>A composição usa PNG e tipografia de sistema para a assinatura. A logo vetorial continua disponível no pacote: <a href="../assets/logo/ab-primary.svg" download="AB-Primary.svg">baixar SVG principal</a>.</p>
+    </div>
+    <a class="back" href="ui-kit.html">← Voltar ao kit de interface</a>
+  </main>
+</body>
+</html>

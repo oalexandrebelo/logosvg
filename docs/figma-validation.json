@@ -1,0 +1,591 @@
+{
+  "schemaVersion": 1,
+  "fileKey": "VTETqqBjYKD3bNACqqwS0A",
+  "url": "https://www.figma.com/design/VTETqqBjYKD3bNACqqwS0A",
+  "auditedAtUtc": "2026-10-17T00:30:51Z",
+  "method": "Figma Plugin API read-only traversal of all four pages; native node, font, token, instance and paint checks; final screenshots of p26 and p32.",
+  "readOnly": true,
+  "canvasMutations": 0,
+  "status": "passed-with-documented-limits",
+  "totals": {
+    "pages": 4,
+    "brandbookFrames": 32,
+    "applicationFrames": 8,
+    "masters": 45,
+    "signatureMasters": 16,
+    "uiMasters": 29,
+    "componentSets": 3,
+    "collections": 3,
+    "variables": 41,
+    "textStyles": 9,
+    "descendantNodes": 2409,
+    "instances": 147,
+    "validLinkedInstances": 147,
+    "textNodes": 721,
+    "textNodesWithStyle": 351,
+    "textNodesWithLocalTypography": 370,
+    "nodesWithVariableBindings": 2099,
+    "solidPaints": 1832,
+    "boundSolidPaints": 1828,
+    "preservedUnboundSolidPaints": 4,
+    "imagePaints": 0,
+    "placeholders": 0,
+    "missingFonts": 0,
+    "wrongFontFamilies": 0,
+    "invalidInstanceReferences": 0,
+    "danglingVariableBindings": 0
+  },
+  "pages": [
+    {
+      "nodeId": "0:1",
+      "name": "01 — Brandbook",
+      "url": "https://www.figma.com/design/VTETqqBjYKD3bNACqqwS0A?node-id=0-1",
+      "topLevelNodes": 32,
+      "descendantNodes": 1260,
+      "framesVerified": 32,
+      "masters": 0,
+      "componentSets": 0,
+      "instances": 53,
+      "textNodes": 454,
+      "textNodesWithStyle": 110,
+      "textNodesWithLocalTypography": 344,
+      "nodesWithVariableBindings": 1110,
+      "solidPaints": 1010,
+      "boundSolidPaints": 1006,
+      "unboundSolidPaints": 4
+    },
+    {
+      "nodeId": "2:55",
+      "name": "02 — Assinaturas",
+      "url": "https://www.figma.com/design/VTETqqBjYKD3bNACqqwS0A?node-id=2-55",
+      "topLevelNodes": 17,
+      "descendantNodes": 509,
+      "framesVerified": 0,
+      "masters": 16,
+      "componentSets": 0,
+      "instances": 16,
+      "textNodes": 69,
+      "textNodesWithStyle": 69,
+      "textNodesWithLocalTypography": 0,
+      "nodesWithVariableBindings": 407,
+      "solidPaints": 369,
+      "boundSolidPaints": 369,
+      "unboundSolidPaints": 0
+    },
+    {
+      "nodeId": "2:56",
+      "name": "03 — Componentes",
+      "url": "https://www.figma.com/design/VTETqqBjYKD3bNACqqwS0A?node-id=2-56",
+      "topLevelNodes": 13,
+      "descendantNodes": 501,
+      "framesVerified": 0,
+      "masters": 29,
+      "componentSets": 3,
+      "instances": 67,
+      "textNodes": 166,
+      "textNodesWithStyle": 166,
+      "textNodesWithLocalTypography": 0,
+      "nodesWithVariableBindings": 471,
+      "solidPaints": 357,
+      "boundSolidPaints": 357,
+      "unboundSolidPaints": 0
+    },
+    {
+      "nodeId": "2:57",
+      "name": "04 — Aplicações",
+      "url": "https://www.figma.com/design/VTETqqBjYKD3bNACqqwS0A?node-id=2-57",
+      "topLevelNodes": 8,
+      "descendantNodes": 139,
+      "framesVerified": 8,
+      "masters": 0,
+      "componentSets": 0,
+      "instances": 11,
+      "textNodes": 32,
+      "textNodesWithStyle": 6,
+      "textNodesWithLocalTypography": 26,
+      "nodesWithVariableBindings": 111,
+      "solidPaints": 96,
+      "boundSolidPaints": 96,
+      "unboundSolidPaints": 0
+    }
+  ],
+  "foundations": {
+    "collections": [
+      {
+        "id": "VariableCollectionId:2:2",
+        "name": "AB / Primitives",
+        "variables": 12,
+        "modes": [
+          {
+            "name": "Value",
+            "id": "2:0"
+          }
+        ]
+      },
+      {
+        "id": "VariableCollectionId:2:15",
+        "name": "AB / Color",
+        "variables": 12,
+        "modes": [
+          {
+            "name": "Light",
+            "id": "2:1"
+          },
+          {
+            "name": "Dark",
+            "id": "2:2"
+          }
+        ]
+      },
+      {
+        "id": "VariableCollectionId:2:28",
+        "name": "AB / Geometry",
+        "variables": 17,
+        "modes": [
+          {
+            "name": "Value",
+            "id": "2:3"
+          }
+        ]
+      }
+    ],
+    "definitionsMatchTokens": true,
+    "aliasGraphValid": true,
+    "textStyleDefinitionsMatchTokens": true,
+    "missingOrExtraVariableIds": 0,
+    "missingOrExtraTextStyleIds": 0
+  },
+  "typography": {
+    "family": "Sora",
+    "segments": {
+      "Sora / SemiBold": 494,
+      "Sora / Regular": 227
+    },
+    "allLibraryTextNodesStyled": true
+  },
+  "componentSets": [
+    {
+      "id": "3:53",
+      "name": "AB/Button",
+      "count": 12
+    },
+    {
+      "id": "3:73",
+      "name": "AB/Badge",
+      "count": 4
+    },
+    {
+      "id": "3:86",
+      "name": "AB/Input",
+      "count": 4
+    }
+  ],
+  "frameGeometryMatchesRecordedSources": true,
+  "frames": {
+    "brandbook": [
+      {
+        "number": 1,
+        "nodeId": "7:2",
+        "name": "01 — Inteligência em trajetória",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 2,
+        "nodeId": "7:20",
+        "name": "02 — Como usar e mapa",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 3,
+        "nodeId": "7:64",
+        "name": "03 — Posicionamento proposto",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 4,
+        "nodeId": "7:87",
+        "name": "04 — Princípios",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 5,
+        "nodeId": "8:49",
+        "name": "05 — Inteligência em trajetória",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 6,
+        "nodeId": "8:75",
+        "name": "06 — Anatomia",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 7,
+        "nodeId": "8:109",
+        "name": "07 — Evolução ALVB → AB → órbita",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 8,
+        "nodeId": "8:145",
+        "name": "08 — Ajustes reais e negativo",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 9,
+        "nodeId": "8:222",
+        "name": "09 — Construção medida",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 10,
+        "nodeId": "8:252",
+        "name": "10 — Principal e reversa",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 11,
+        "nodeId": "8:285",
+        "name": "11 — Assinaturas Alexandre Belo / AB ED&IA",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 12,
+        "nodeId": "8:354",
+        "name": "12 — Monocromia",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 13,
+        "nodeId": "8:409",
+        "name": "13 — Proteção",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 14,
+        "nodeId": "8:436",
+        "name": "14 — Escala responsiva",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 15,
+        "nodeId": "8:514",
+        "name": "15 — Fundos",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 16,
+        "nodeId": "8:569",
+        "name": "16 — Usos incorretos",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 17,
+        "nodeId": "8:647",
+        "name": "17 — Paleta",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 18,
+        "nodeId": "8:682",
+        "name": "18 — Contraste e acessibilidade",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 19,
+        "nodeId": "8:718",
+        "name": "19 — Tipografia Sora",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 20,
+        "nodeId": "8:734",
+        "name": "20 — Hierarquia e tracking",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 21,
+        "nodeId": "8:765",
+        "name": "21 — Grid e layout",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 22,
+        "nodeId": "8:792",
+        "name": "22 — Elementos gráficos",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 23,
+        "nodeId": "8:811",
+        "name": "23 — Ícones e ilustração",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 24,
+        "nodeId": "8:879",
+        "name": "24 — Movimento",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 25,
+        "nodeId": "8:921",
+        "name": "25 — Voz",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 26,
+        "nodeId": "8:948",
+        "name": "26 — UI kit",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 27,
+        "nodeId": "8:984",
+        "name": "27 — Aplicação digital",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 28,
+        "nodeId": "8:1017",
+        "name": "28 — Editorial e case",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 29,
+        "nodeId": "8:1042",
+        "name": "29 — Social",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 30,
+        "nodeId": "8:1077",
+        "name": "30 — Assinatura e cartão",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 31,
+        "nodeId": "8:1113",
+        "name": "31 — Ativos e manutenção",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 32,
+        "nodeId": "8:1142",
+        "name": "32 — Fontes e créditos",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "applications": [
+      {
+        "number": 1,
+        "nodeId": "9:373",
+        "name": "01 — Digital / Desktop",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "number": 2,
+        "nodeId": "9:408",
+        "name": "02 — Digital / Mobile",
+        "width": 390,
+        "height": 844
+      },
+      {
+        "number": 3,
+        "nodeId": "9:434",
+        "name": "03 — Apresentação / Capa",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "number": 4,
+        "nodeId": "9:449",
+        "name": "04 — Social / Quadrado",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "number": 5,
+        "nodeId": "9:463",
+        "name": "05 — Social / Avatar contextual",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "number": 6,
+        "nodeId": "9:470",
+        "name": "06 — Cartão / Frente 90 × 50 mm",
+        "width": 900,
+        "height": 500
+      },
+      {
+        "number": 7,
+        "nodeId": "9:480",
+        "name": "07 — Cartão / Verso 90 × 50 mm",
+        "width": 900,
+        "height": 500
+      },
+      {
+        "number": 8,
+        "nodeId": "9:495",
+        "name": "08 — Comunicação / Assinatura",
+        "width": 800,
+        "height": 200
+      }
+    ]
+  },
+  "p26ScopeCheck": {
+    "frameId": "8:948",
+    "textNodeId": "8:955",
+    "buttonVariants": 12,
+    "inputVariants": 4,
+    "badgeVariants": 4,
+    "cards": 1,
+    "uiIcons": 8,
+    "total": 29,
+    "matchesDeliveredLibrary": true
+  },
+  "visualChecks": [
+    {
+      "nodeId": "8:948",
+      "url": "https://www.figma.com/design/VTETqqBjYKD3bNACqqwS0A?node-id=8-948",
+      "role": "p26 — UI kit, após a correção textual",
+      "width": 1920,
+      "height": 1080,
+      "status": "passed",
+      "observations": [
+        "Escopo textual corresponde a 29 masters de UI.",
+        "Parágrafo, campo, botões, estados e rodapé estão legíveis e sem cortes ou sobreposição."
+      ]
+    },
+    {
+      "nodeId": "8:1142",
+      "url": "https://www.figma.com/design/VTETqqBjYKD3bNACqqwS0A?node-id=8-1142",
+      "role": "p32 — Fontes e créditos",
+      "width": 1920,
+      "height": 1080,
+      "status": "passed",
+      "observations": [
+        "Fechamento, seis referências, assinatura e paginação legíveis.",
+        "Ausência de cortes e sobreposição na captura final."
+      ]
+    }
+  ],
+  "previousVisualChecks": [
+    {
+      "nodeId": "3:118",
+      "url": "https://www.figma.com/design/VTETqqBjYKD3bNACqqwS0A?node-id=3-118",
+      "role": "Revisão dos componentes Light/Dark",
+      "status": "passed-during-composition"
+    },
+    {
+      "nodeId": "5:194",
+      "url": "https://www.figma.com/design/VTETqqBjYKD3bNACqqwS0A?node-id=5-194",
+      "role": "Revisão das assinaturas",
+      "status": "passed-during-composition"
+    },
+    {
+      "nodeId": "9:373",
+      "url": "https://www.figma.com/design/VTETqqBjYKD3bNACqqwS0A?node-id=9-373",
+      "role": "Desktop após navegação em Auto Layout",
+      "status": "passed-during-composition"
+    },
+    {
+      "nodeId": "9:408",
+      "url": "https://www.figma.com/design/VTETqqBjYKD3bNACqqwS0A?node-id=9-408",
+      "role": "Mobile",
+      "status": "passed-during-composition"
+    },
+    {
+      "nodeId": "9:449",
+      "url": "https://www.figma.com/design/VTETqqBjYKD3bNACqqwS0A?node-id=9-449",
+      "role": "Social quadrado",
+      "status": "passed-during-composition"
+    },
+    {
+      "nodeId": "9:480",
+      "url": "https://www.figma.com/design/VTETqqBjYKD3bNACqqwS0A?node-id=9-480",
+      "role": "Verso do cartão",
+      "status": "passed-during-composition"
+    }
+  ],
+  "documentedExceptions": [
+    {
+      "kind": "preserved-reference-color",
+      "hex": "#1666E4",
+      "nodeIds": [
+        "8:130",
+        "8:166",
+        "8:188",
+        "8:210"
+      ],
+      "frameIds": [
+        "8:109",
+        "8:145"
+      ],
+      "context": "Comparações da AB-NEW original nas pranchas 07 e 08. Quatro fills preservam a referência histórica; a assinatura refinada utiliza #065CFB. Nenhum token residual foi adicionado.",
+      "bindingPolicy": "Intencionalmente sem variável para manter a referência original."
+    },
+    {
+      "kind": "local-editorial-typography",
+      "textNodes": 370,
+      "byPage": {
+        "0:1": 344,
+        "2:57": 26
+      },
+      "family": "Sora",
+      "impact": "Esses textos têm propriedades tipográficas locais; alterações de estilos não se propagam automaticamente a eles. Assinaturas e Componentes têm todos os seus 235 textos vinculados a estilos."
+    }
+  ],
+  "htmlQa": {
+    "status": "static-only",
+    "browserEndToEndVerified": false,
+    "source": "docs/repository.md",
+    "verified": [
+      "Referências locais, IDs, rótulos e descrições, textos alternativos, tipos de botões e sintaxe JavaScript.",
+      "Seleção de logo por escala, regras de foco e prefers-reduced-motion."
+    ],
+    "notVerified": [
+      "Renderização responsiva em navegador real.",
+      "Navegação com tecnologia assistiva e comportamento dos controles em navegadores."
+    ],
+    "environmentLimit": "Não foi obtida captura HTML em navegador: Chromium ausente e tentativa de obtenção retornou uma distribuição inválida."
+  },
+  "maps": {
+    "library": "docs/figma-library.json",
+    "reconstruction": "docs/figma-library.md"
+  }
+}
